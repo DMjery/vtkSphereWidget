@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "VTKSphereWidget",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "VTKSphereWidget::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VTKSphereWidget-Debug-3c213e621531f231de49.json",
+					"name" : "VTKSphereWidget",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "VTKSphereWidgetTests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VTKSphereWidgetTests-Debug-321af182f3125eeb4638.json",
+					"name" : "VTKSphereWidgetTests",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug",
+		"source" : "/Users/Dani/CLionProjects/VTKSphereWidgetProject"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

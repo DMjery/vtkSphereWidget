@@ -1,0 +1,4 @@
+set(__QT_DEPLOY_TARGET_VTKSphereWidget_FILE /Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/VTKSphereWidget)
+set(__QT_DEPLOY_TARGET_VTKSphereWidget_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_VTKSphereWidgetTests_FILE /Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/VTKSphereWidgetTests)
+set(__QT_DEPLOY_TARGET_VTKSphereWidgetTests_TYPE EXECUTABLE)
