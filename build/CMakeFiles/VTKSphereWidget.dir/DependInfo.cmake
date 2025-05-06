@@ -8,8 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "" "VTKSphereWidget_autogen/timestamp" "custom" "VTKSphereWidget_autogen/deps"
   "/Users/Dani/CLionProjects/VTKSphereWidgetProject/Controller/SphereController.cpp" "CMakeFiles/VTKSphereWidget.dir/Controller/SphereController.cpp.o" "gcc" "CMakeFiles/VTKSphereWidget.dir/Controller/SphereController.cpp.o.d"
   "/Users/Dani/CLionProjects/VTKSphereWidgetProject/Model/SphereModel.cpp" "CMakeFiles/VTKSphereWidget.dir/Model/SphereModel.cpp.o" "gcc" "CMakeFiles/VTKSphereWidget.dir/Model/SphereModel.cpp.o.d"
+  "/Users/Dani/CLionProjects/VTKSphereWidgetProject/build/VTKSphereWidget_autogen/mocs_compilation.cpp" "CMakeFiles/VTKSphereWidget.dir/VTKSphereWidget_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/VTKSphereWidget.dir/VTKSphereWidget_autogen/mocs_compilation.cpp.o.d"
   "/Users/Dani/CLionProjects/VTKSphereWidgetProject/View/SphereView.cpp" "CMakeFiles/VTKSphereWidget.dir/View/SphereView.cpp.o" "gcc" "CMakeFiles/VTKSphereWidget.dir/View/SphereView.cpp.o.d"
   "/Users/Dani/CLionProjects/VTKSphereWidgetProject/main.cpp" "CMakeFiles/VTKSphereWidget.dir/main.cpp.o" "gcc" "CMakeFiles/VTKSphereWidget.dir/main.cpp.o.d"
   )

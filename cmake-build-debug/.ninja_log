@@ -1,0 +1,22 @@
+# ninja log v6
+11	2432	1746532109160680503	build.ninja	6acfce94d0a56a7f
+7	3138	1746371531525146978	VTKSphereWidget_autogen/timestamp	763d4eda50eacff5
+7	3138	1746371531525146978	VTKSphereWidget_autogen/mocs_compilation.cpp	763d4eda50eacff5
+7	3138	1746371531525146978	/Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/VTKSphereWidget_autogen/mocs_compilation.cpp	763d4eda50eacff5
+3149	5413	1746371531588825660	CMakeFiles/VTKSphereWidget.dir/Model/SphereModel.cpp.o	84ec378536641b2a
+7	3138	1746371531525146978	/Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/VTKSphereWidget_autogen/timestamp	763d4eda50eacff5
+3148	8071	1746371531587815247	CMakeFiles/VTKSphereWidget.dir/VTKSphereWidget_autogen/mocs_compilation.cpp.o	b69e603de3972059
+3150	8088	1746371531589661139	CMakeFiles/VTKSphereWidget.dir/Controller/SphereController.cpp.o	9124e24385849c82
+3150	6873	1746371531589279630	CMakeFiles/VTKSphereWidget.dir/View/SphereView.cpp.o	99487a0c39f71318
+8251	8762	1746371536691012733	VTKSphereWidget	2265e041b160752c
+3149	8251	1746371531588327459	CMakeFiles/VTKSphereWidget.dir/main.cpp.o	9579baa5bb1ea1bb
+104	3244	1746544224504502000	VTKSphereWidget_autogen/timestamp	763d4eda50eacff5
+104	3244	1746544224504502000	VTKSphereWidget_autogen/mocs_compilation.cpp	763d4eda50eacff5
+104	3244	1746544224504502000	/Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/VTKSphereWidget_autogen/timestamp	763d4eda50eacff5
+104	3244	1746544224504502000	/Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/VTKSphereWidget_autogen/mocs_compilation.cpp	763d4eda50eacff5
+3248	6114	1746544224578676149	CMakeFiles/VTKSphereWidget.dir/Model/SphereModel.cpp.o	25485b18f2701cec
+3250	8566	1746544224580203867	CMakeFiles/VTKSphereWidget.dir/View/SphereView.cpp.o	62568c4c3034379a
+3251	10056	1746544224581177346	CMakeFiles/VTKSphereWidget.dir/Controller/SphereController.cpp.o	8af2d401b3ef6c78
+3246	10174	1746544224577109719	CMakeFiles/VTKSphereWidget.dir/VTKSphereWidget_autogen/mocs_compilation.cpp.o	5ea54e5e334bbbdd
+3247	10226	1746544224577655852	CMakeFiles/VTKSphereWidget.dir/main.cpp.o	5db5c55afd8e83e1
+10226	10797	1746544231556684532	VTKSphereWidget	c0b71232eb444625

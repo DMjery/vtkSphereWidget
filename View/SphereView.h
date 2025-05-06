@@ -1,24 +1,35 @@
 #pragma once
-#include <QWidget>
-#include <QSlider>
+#include <QApplication>
+#include <QDockWidget>
+#include <QGridLayout>
+#include <QLabel>
+#include <QMainWindow>
+#include <QPointer.h>
+#include <QPushButton>
 #include <QVBoxLayout>
 #include <vtkGenericOpenGLRenderWindow.h>
 #include <QVTKOpenGLNativeWidget.h>
 
+
 /**
  * @class SphereView
  * @brief The SphereView class represents the user interface.
- * 
+ *
  * This class is responsible for displaying the sphere widget and adjusting the radius using a slider.
  */
 class SphereView : public QWidget {
     Q_OBJECT
 public:
-    SphereView(QWidget* parent = nullptr);
-    QSlider* getSlider() const;
-    QVTKOpenGLNativeWidget* getVTKWidget() const;
+    explicit SphereView(QWidget* parent = nullptr);
+    QDockWidget* getControlDock() const;
+    QVTKOpenGLNativeWidget* getQVNativeWidget() const;
+    QPushButton* getRandButton() const;
 
 private:
-    QSlider* radiusSlider;
-    QVTKOpenGLNativeWidget* vtkWidget;
+    QDockWidget* controlDock;
+    QLabel* controlDockTitle;
+    QVBoxLayout* qvBoxLayout;
+    QPushButton* randButton;
+    QVTKOpenGLNativeWidget* qvtkNativeWidget;
+
 };

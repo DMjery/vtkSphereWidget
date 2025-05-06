@@ -1,8 +1,8 @@
 CMakeFiles/VTKSphereWidget.dir/View/SphereView.cpp.o: \
   /Users/Dani/CLionProjects/VTKSphereWidgetProject/View/SphereView.cpp \
   /Users/Dani/CLionProjects/VTKSphereWidgetProject/View/SphereView.h \
-  /usr/local/lib/QtWidgets.framework/Headers/QWidget \
-  /usr/local/lib/QtWidgets.framework/Headers/qwidget.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QApplication \
+  /usr/local/lib/QtWidgets.framework/Headers/qapplication.h \
   /usr/local/include/QtWidgets/qtwidgetsglobal.h \
   /usr/local/include/QtGui/qtguiglobal.h \
   /usr/local/include/QtCore/qglobal.h \
@@ -686,9 +686,8 @@ CMakeFiles/VTKSphereWidget.dir/View/SphereView.cpp.o: \
   /usr/local/include/QtGui/qtguiexports.h \
   /usr/local/include/QtWidgets/qtwidgets-config.h \
   /usr/local/include/QtWidgets/qtwidgetsexports.h \
-  /usr/local/include/QtGui/qwindowdefs.h \
-  /usr/local/include/QtCore/qobjectdefs.h \
-  /usr/local/include/QtCore/qnamespace.h \
+  /usr/local/include/QtCore/qcoreapplication.h \
+  /usr/local/include/QtCore/qstring.h /usr/local/include/QtCore/qchar.h \
   /usr/local/include/QtCore/qcompare.h \
   /usr/local/include/QtCore/qstdlibdetection.h \
   /usr/local/include/QtCore/qcomparehelpers.h \
@@ -846,14 +845,11 @@ CMakeFiles/VTKSphereWidget.dir/View/SphereView.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__functional/default_searcher.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__functional/not_fn.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
-  /usr/local/include/QtCore/qtmetamacros.h \
-  /usr/local/include/QtCore/qobjectdefs_impl.h \
-  /usr/local/include/QtCore/qfunctionaltools_impl.h \
-  /usr/local/include/QtCore/qobject.h \
-  /usr/local/include/QtCore/qstring.h /usr/local/include/QtCore/qchar.h \
   /usr/local/include/QtCore/qstringview.h \
   /usr/local/include/QtCore/qbytearray.h \
   /usr/local/include/QtCore/qrefcount.h \
+  /usr/local/include/QtCore/qnamespace.h \
+  /usr/local/include/QtCore/qtmetamacros.h \
   /usr/local/include/QtCore/qarraydata.h \
   /usr/local/include/QtCore/qpair.h \
   /usr/local/include/QtCore/qarraydatapointer.h \
@@ -875,6 +871,13 @@ CMakeFiles/VTKSphereWidget.dir/View/SphereView.cpp.o: \
   /usr/local/include/QtCore/qstringbuilder.h \
   /usr/local/include/QtCore/qstringconverter.h \
   /usr/local/include/QtCore/qstringconverter_base.h \
+  /usr/local/include/QtCore/qcoreevent.h \
+  /usr/local/include/QtCore/qbasictimer.h \
+  /usr/local/include/QtCore/qabstracteventdispatcher.h \
+  /usr/local/include/QtCore/qobject.h \
+  /usr/local/include/QtCore/qobjectdefs.h \
+  /usr/local/include/QtCore/qobjectdefs_impl.h \
+  /usr/local/include/QtCore/qfunctionaltools_impl.h \
   /usr/local/include/QtCore/qlist.h \
   /usr/local/include/QtCore/qhashfunctions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/numeric \
@@ -917,17 +920,21 @@ CMakeFiles/VTKSphereWidget.dir/View/SphereView.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/forward_list \
-  /usr/local/include/QtCore/qmargins.h \
+  /usr/local/include/QtCore/qeventloop.h \
+  /usr/local/include/QtCore/qdeadlinetimer.h \
+  /usr/local/include/QtCore/qelapsedtimer.h \
+  /usr/local/include/QtCore/qnativeinterface.h \
+  /usr/local/include/QtCore/qcoreapplication_platform.h \
+  /usr/local/include/QtGui/qwindowdefs.h \
+  /usr/local/include/QtCore/qpoint.h \
   /usr/local/include/QtCore/q23utility.h \
   /usr/local/include/QtCore/q20utility.h \
-  /usr/local/include/QtGui/qaction.h \
-  /usr/local/include/QtGui/qkeysequence.h \
-  /usr/local/include/QtGui/qicon.h /usr/local/include/QtCore/qsize.h \
+  /usr/local/include/QtCore/qsize.h /usr/local/include/QtCore/qmargins.h \
+  /usr/local/include/QtGui/qcursor.h /usr/local/include/QtGui/qbitmap.h \
   /usr/local/include/QtGui/qpixmap.h \
   /usr/local/include/QtGui/qpaintdevice.h \
-  /usr/local/include/QtCore/qrect.h /usr/local/include/QtCore/qpoint.h \
-  /usr/local/include/QtGui/qcolor.h /usr/local/include/QtGui/qrgb.h \
-  /usr/local/include/QtGui/qrgba64.h \
+  /usr/local/include/QtCore/qrect.h /usr/local/include/QtGui/qcolor.h \
+  /usr/local/include/QtGui/qrgb.h /usr/local/include/QtGui/qrgba64.h \
   /usr/local/include/QtCore/qshareddata.h \
   /usr/local/include/QtGui/qimage.h \
   /usr/local/include/QtGui/qpixelformat.h \
@@ -936,7 +943,11 @@ CMakeFiles/VTKSphereWidget.dir/View/SphereView.cpp.o: \
   /usr/local/include/QtCore/qspan.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/cassert \
   /usr/local/include/QtCore/q20iterator.h \
-  /usr/local/include/QtCore/qline.h /usr/local/include/QtCore/qvariant.h \
+  /usr/local/include/QtCore/qline.h \
+  /usr/local/include/QtGui/qguiapplication.h \
+  /usr/local/include/QtGui/qinputmethod.h \
+  /usr/local/include/QtCore/qlocale.h \
+  /usr/local/include/QtCore/qvariant.h \
   /usr/local/include/QtCore/qdebug.h \
   /usr/local/include/QtCore/qtextstream.h \
   /usr/local/include/QtCore/qcontiguouscache.h \
@@ -948,23 +959,41 @@ CMakeFiles/VTKSphereWidget.dir/View/SphereView.cpp.o: \
   /usr/local/include/QtCore/qshareddata_impl.h \
   /usr/local/include/QtCore/qset.h /usr/local/include/QtCore/qhash.h \
   /usr/local/include/QtCore/qvarlengtharray.h \
-  /usr/local/include/QtGui/qpalette.h /usr/local/include/QtGui/qbrush.h \
-  /usr/local/include/QtGui/qfont.h /usr/local/include/QtCore/qendian.h \
+  /usr/local/include/QtGui/qguiapplication_platform.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QDockWidget \
+  /usr/local/lib/QtWidgets.framework/Headers/qdockwidget.h \
+  /usr/local/include/QtWidgets/qwidget.h \
+  /usr/local/include/QtGui/qaction.h \
+  /usr/local/include/QtGui/qkeysequence.h \
+  /usr/local/include/QtGui/qicon.h /usr/local/include/QtGui/qpalette.h \
+  /usr/local/include/QtGui/qbrush.h /usr/local/include/QtGui/qfont.h \
+  /usr/local/include/QtCore/qendian.h \
   /usr/local/include/QtGui/qfontmetrics.h \
   /usr/local/include/QtGui/qfontinfo.h \
   /usr/local/include/QtGui/qfontvariableaxis.h \
   /usr/local/include/QtWidgets/qsizepolicy.h \
-  /usr/local/include/QtGui/qcursor.h /usr/local/include/QtGui/qbitmap.h \
-  /usr/local/lib/QtWidgets.framework/Headers/QSlider \
-  /usr/local/lib/QtWidgets.framework/Headers/qslider.h \
-  /usr/local/include/QtWidgets/qabstractslider.h \
-  /usr/local/include/QtWidgets/qwidget.h \
-  /usr/local/lib/QtWidgets.framework/Headers/QVBoxLayout \
-  /usr/local/lib/QtWidgets.framework/Headers/qboxlayout.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QGridLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qgridlayout.h \
   /usr/local/include/QtWidgets/qlayout.h \
   /usr/local/include/QtWidgets/qlayoutitem.h \
   /usr/local/include/QtWidgets/qboxlayout.h \
   /usr/local/include/QtWidgets/qgridlayout.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QLabel \
+  /usr/local/lib/QtWidgets.framework/Headers/qlabel.h \
+  /usr/local/include/QtWidgets/qframe.h \
+  /usr/local/include/QtGui/qpicture.h \
+  /usr/local/include/QtCore/qiodevice.h \
+  /usr/local/include/QtGui/qtextdocument.h \
+  /usr/local/include/QtCore/qurl.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QMainWindow \
+  /usr/local/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /usr/local/include/QtWidgets/qtabwidget.h \
+  /usr/local/lib/QtCore.framework/Headers/QPointer.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QPushButton \
+  /usr/local/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /usr/local/include/QtWidgets/qabstractbutton.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QVBoxLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /usr/local/include/vtk-9.4/vtkGenericOpenGLRenderWindow.h \
   /usr/local/include/vtk-9.4/vtkOpenGLRenderWindow.h \
   /usr/local/include/vtk-9.4/vtkRect.h \

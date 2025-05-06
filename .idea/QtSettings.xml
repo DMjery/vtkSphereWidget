@@ -7,8 +7,8 @@
         <entry key="Debug">
           <value>
             <PerProfileState>
-              <option name="myQmlPath" value="/usr/local/share/qt/qml" />
-              <option name="myQtBinPath" value="/usr/local/bin" />
+              <option name="myQmlPath" value="/usr/local/opt/qt@6/share/qt/qml" />
+              <option name="myQtBinPath" value="/usr/local/opt/qt@6/bin" />
             </PerProfileState>
           </value>
         </entry>

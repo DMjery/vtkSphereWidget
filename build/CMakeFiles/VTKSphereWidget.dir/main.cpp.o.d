@@ -1,7 +1,7 @@
 CMakeFiles/VTKSphereWidget.dir/main.cpp.o: \
   /Users/Dani/CLionProjects/VTKSphereWidgetProject/main.cpp \
-  /usr/local/lib/QtWidgets.framework/Headers/QApplication \
-  /usr/local/lib/QtWidgets.framework/Headers/qapplication.h \
+  /usr/local/include/QtWidgets/QApplication \
+  /usr/local/include/QtWidgets/qapplication.h \
   /usr/local/include/QtWidgets/qtwidgetsglobal.h \
   /usr/local/include/QtGui/qtguiglobal.h \
   /usr/local/include/QtCore/qglobal.h \
@@ -959,6 +959,19 @@ CMakeFiles/VTKSphereWidget.dir/main.cpp.o: \
   /usr/local/include/QtCore/qset.h /usr/local/include/QtCore/qhash.h \
   /usr/local/include/QtCore/qvarlengtharray.h \
   /usr/local/include/QtGui/qguiapplication_platform.h \
+  /usr/local/include/QtWidgets/QMainWindow \
+  /usr/local/include/QtWidgets/qmainwindow.h \
+  /usr/local/include/QtWidgets/qwidget.h \
+  /usr/local/include/QtGui/qaction.h \
+  /usr/local/include/QtGui/qkeysequence.h \
+  /usr/local/include/QtGui/qicon.h /usr/local/include/QtGui/qpalette.h \
+  /usr/local/include/QtGui/qbrush.h /usr/local/include/QtGui/qfont.h \
+  /usr/local/include/QtCore/qendian.h \
+  /usr/local/include/QtGui/qfontmetrics.h \
+  /usr/local/include/QtGui/qfontinfo.h \
+  /usr/local/include/QtGui/qfontvariableaxis.h \
+  /usr/local/include/QtWidgets/qsizepolicy.h \
+  /usr/local/include/QtWidgets/qtabwidget.h \
   /Users/Dani/CLionProjects/VTKSphereWidgetProject/Model/SphereModel.h \
   /usr/local/include/vtk-9.4/vtkSmartPointer.h \
   /usr/local/include/vtk-9.4/vtkSmartPointerBase.h \
@@ -1107,28 +1120,31 @@ CMakeFiles/VTKSphereWidget.dir/main.cpp.o: \
   /usr/local/include/vtk-9.4/vtkCellLinks.h \
   /usr/local/include/vtk-9.4/vtkAbstractCellLinks.h \
   /usr/local/include/vtk-9.4/vtkPolyDataInternals.h \
+  /Users/Dani/CLionProjects/VTKSphereWidgetProject/Controller/SphereController.h \
   /Users/Dani/CLionProjects/VTKSphereWidgetProject/View/SphereView.h \
-  /usr/local/lib/QtWidgets.framework/Headers/QWidget \
-  /usr/local/lib/QtWidgets.framework/Headers/qwidget.h \
-  /usr/local/include/QtGui/qaction.h \
-  /usr/local/include/QtGui/qkeysequence.h \
-  /usr/local/include/QtGui/qicon.h /usr/local/include/QtGui/qpalette.h \
-  /usr/local/include/QtGui/qbrush.h /usr/local/include/QtGui/qfont.h \
-  /usr/local/include/QtCore/qendian.h \
-  /usr/local/include/QtGui/qfontmetrics.h \
-  /usr/local/include/QtGui/qfontinfo.h \
-  /usr/local/include/QtGui/qfontvariableaxis.h \
-  /usr/local/include/QtWidgets/qsizepolicy.h \
-  /usr/local/lib/QtWidgets.framework/Headers/QSlider \
-  /usr/local/lib/QtWidgets.framework/Headers/qslider.h \
-  /usr/local/include/QtWidgets/qabstractslider.h \
-  /usr/local/include/QtWidgets/qwidget.h \
-  /usr/local/lib/QtWidgets.framework/Headers/QVBoxLayout \
-  /usr/local/lib/QtWidgets.framework/Headers/qboxlayout.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QApplication \
+  /usr/local/lib/QtWidgets.framework/Headers/QDockWidget \
+  /usr/local/lib/QtWidgets.framework/Headers/qdockwidget.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QGridLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qgridlayout.h \
   /usr/local/include/QtWidgets/qlayout.h \
   /usr/local/include/QtWidgets/qlayoutitem.h \
   /usr/local/include/QtWidgets/qboxlayout.h \
   /usr/local/include/QtWidgets/qgridlayout.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QLabel \
+  /usr/local/lib/QtWidgets.framework/Headers/qlabel.h \
+  /usr/local/include/QtWidgets/qframe.h \
+  /usr/local/include/QtGui/qpicture.h \
+  /usr/local/include/QtCore/qiodevice.h \
+  /usr/local/include/QtGui/qtextdocument.h \
+  /usr/local/include/QtCore/qurl.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QMainWindow \
+  /usr/local/lib/QtCore.framework/Headers/QPointer.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QPushButton \
+  /usr/local/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /usr/local/include/QtWidgets/qabstractbutton.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QVBoxLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /usr/local/include/vtk-9.4/vtkGenericOpenGLRenderWindow.h \
   /usr/local/include/vtk-9.4/vtkOpenGLRenderWindow.h \
   /usr/local/include/vtk-9.4/vtkRect.h \
@@ -1167,7 +1183,6 @@ CMakeFiles/VTKSphereWidget.dir/main.cpp.o: \
   /usr/local/include/QtCore/QObject \
   /usr/local/include/vtk-9.4/vtkRenderWindowInteractor.h \
   /usr/local/include/vtk-9.4/vtkTDxConfigure.h \
-  /Users/Dani/CLionProjects/VTKSphereWidgetProject/Controller/SphereController.h \
   /usr/local/include/vtk-9.4/vtkActor.h \
   /usr/local/include/vtk-9.4/vtkProp3D.h \
   /usr/local/include/vtk-9.4/vtkProp.h \
@@ -1184,4 +1199,44 @@ CMakeFiles/VTKSphereWidget.dir/main.cpp.o: \
   /usr/local/include/vtk-9.4/vtkMapper.h \
   /usr/local/include/vtk-9.4/vtkAbstractMapper3D.h \
   /usr/local/include/vtk-9.4/vtkAbstractMapper.h \
-  /usr/local/lib/QtCore.framework/Headers/QObject
+  /usr/local/include/vtk-9.4/vtkDataSetMapper.h \
+  /usr/local/include/vtk-9.4/vtkPointData.h \
+  /usr/local/include/vtk-9.4/vtkDataSetAttributes.h \
+  /usr/local/include/vtk-9.4/vtkDataSetAttributesFieldList.h \
+  /usr/local/include/vtk-9.4/vtkFieldData.h \
+  /usr/local/include/vtk-9.4/vtkDoubleArray.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/random \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/generate_canonical.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/binomial_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/cauchy_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/gamma_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/exponential_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/default_random_engine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/is_seed_sequence.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/discard_block_engine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/discrete_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/extreme_value_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/fisher_f_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/geometric_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/negative_binomial_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/poisson_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/clamp_to_integral.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/normal_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/independent_bits_engine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/knuth_b.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/shuffle_order_engine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/lognormal_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/piecewise_linear_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/random_device.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/ranlux.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/seed_seq.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/weibull_distribution.h

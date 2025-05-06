@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = /Users/Dani/CLionProjects/VTKSphereWidgetProject/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
-	/usr/local/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-.PHONY : test/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
@@ -140,17 +130,30 @@ VTKSphereWidget/fast:
 .PHONY : VTKSphereWidget/fast
 
 #=============================================================================
-# Target rules for targets named VTKSphereWidgetTests
+# Target rules for targets named VTKSphereWidget_autogen_timestamp_deps
 
 # Build rule for target.
-VTKSphereWidgetTests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 VTKSphereWidgetTests
-.PHONY : VTKSphereWidgetTests
+VTKSphereWidget_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 VTKSphereWidget_autogen_timestamp_deps
+.PHONY : VTKSphereWidget_autogen_timestamp_deps
 
 # fast build rule for target.
-VTKSphereWidgetTests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidgetTests.dir/build.make CMakeFiles/VTKSphereWidgetTests.dir/build
-.PHONY : VTKSphereWidgetTests/fast
+VTKSphereWidget_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidget_autogen_timestamp_deps.dir/build.make CMakeFiles/VTKSphereWidget_autogen_timestamp_deps.dir/build
+.PHONY : VTKSphereWidget_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named VTKSphereWidget_autogen
+
+# Build rule for target.
+VTKSphereWidget_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 VTKSphereWidget_autogen
+.PHONY : VTKSphereWidget_autogen
+
+# fast build rule for target.
+VTKSphereWidget_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidget_autogen.dir/build.make CMakeFiles/VTKSphereWidget_autogen.dir/build
+.PHONY : VTKSphereWidget_autogen/fast
 
 Controller/SphereController.o: Controller/SphereController.cpp.o
 .PHONY : Controller/SphereController.o
@@ -200,77 +203,29 @@ Model/SphereModel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidget.dir/build.make CMakeFiles/VTKSphereWidget.dir/Model/SphereModel.cpp.s
 .PHONY : Model/SphereModel.cpp.s
 
-Test/SphereControllerTest.o: Test/SphereControllerTest.cpp.o
-.PHONY : Test/SphereControllerTest.o
+VTKSphereWidget_autogen/mocs_compilation.o: VTKSphereWidget_autogen/mocs_compilation.cpp.o
+.PHONY : VTKSphereWidget_autogen/mocs_compilation.o
 
 # target to build an object file
-Test/SphereControllerTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidgetTests.dir/build.make CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereControllerTest.cpp.o
-.PHONY : Test/SphereControllerTest.cpp.o
+VTKSphereWidget_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidget.dir/build.make CMakeFiles/VTKSphereWidget.dir/VTKSphereWidget_autogen/mocs_compilation.cpp.o
+.PHONY : VTKSphereWidget_autogen/mocs_compilation.cpp.o
 
-Test/SphereControllerTest.i: Test/SphereControllerTest.cpp.i
-.PHONY : Test/SphereControllerTest.i
-
-# target to preprocess a source file
-Test/SphereControllerTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidgetTests.dir/build.make CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereControllerTest.cpp.i
-.PHONY : Test/SphereControllerTest.cpp.i
-
-Test/SphereControllerTest.s: Test/SphereControllerTest.cpp.s
-.PHONY : Test/SphereControllerTest.s
-
-# target to generate assembly for a file
-Test/SphereControllerTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidgetTests.dir/build.make CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereControllerTest.cpp.s
-.PHONY : Test/SphereControllerTest.cpp.s
-
-Test/SphereModelTest.o: Test/SphereModelTest.cpp.o
-.PHONY : Test/SphereModelTest.o
-
-# target to build an object file
-Test/SphereModelTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidgetTests.dir/build.make CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereModelTest.cpp.o
-.PHONY : Test/SphereModelTest.cpp.o
-
-Test/SphereModelTest.i: Test/SphereModelTest.cpp.i
-.PHONY : Test/SphereModelTest.i
+VTKSphereWidget_autogen/mocs_compilation.i: VTKSphereWidget_autogen/mocs_compilation.cpp.i
+.PHONY : VTKSphereWidget_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-Test/SphereModelTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidgetTests.dir/build.make CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereModelTest.cpp.i
-.PHONY : Test/SphereModelTest.cpp.i
+VTKSphereWidget_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidget.dir/build.make CMakeFiles/VTKSphereWidget.dir/VTKSphereWidget_autogen/mocs_compilation.cpp.i
+.PHONY : VTKSphereWidget_autogen/mocs_compilation.cpp.i
 
-Test/SphereModelTest.s: Test/SphereModelTest.cpp.s
-.PHONY : Test/SphereModelTest.s
-
-# target to generate assembly for a file
-Test/SphereModelTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidgetTests.dir/build.make CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereModelTest.cpp.s
-.PHONY : Test/SphereModelTest.cpp.s
-
-Test/SphereViewTest.o: Test/SphereViewTest.cpp.o
-.PHONY : Test/SphereViewTest.o
-
-# target to build an object file
-Test/SphereViewTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidgetTests.dir/build.make CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereViewTest.cpp.o
-.PHONY : Test/SphereViewTest.cpp.o
-
-Test/SphereViewTest.i: Test/SphereViewTest.cpp.i
-.PHONY : Test/SphereViewTest.i
-
-# target to preprocess a source file
-Test/SphereViewTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidgetTests.dir/build.make CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereViewTest.cpp.i
-.PHONY : Test/SphereViewTest.cpp.i
-
-Test/SphereViewTest.s: Test/SphereViewTest.cpp.s
-.PHONY : Test/SphereViewTest.s
+VTKSphereWidget_autogen/mocs_compilation.s: VTKSphereWidget_autogen/mocs_compilation.cpp.s
+.PHONY : VTKSphereWidget_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-Test/SphereViewTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidgetTests.dir/build.make CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereViewTest.cpp.s
-.PHONY : Test/SphereViewTest.cpp.s
+VTKSphereWidget_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidget.dir/build.make CMakeFiles/VTKSphereWidget.dir/VTKSphereWidget_autogen/mocs_compilation.cpp.s
+.PHONY : VTKSphereWidget_autogen/mocs_compilation.cpp.s
 
 View/SphereView.o: View/SphereView.cpp.o
 .PHONY : View/SphereView.o
@@ -328,24 +283,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... test"
+	@echo "... VTKSphereWidget_autogen"
+	@echo "... VTKSphereWidget_autogen_timestamp_deps"
 	@echo "... VTKSphereWidget"
-	@echo "... VTKSphereWidgetTests"
 	@echo "... Controller/SphereController.o"
 	@echo "... Controller/SphereController.i"
 	@echo "... Controller/SphereController.s"
 	@echo "... Model/SphereModel.o"
 	@echo "... Model/SphereModel.i"
 	@echo "... Model/SphereModel.s"
-	@echo "... Test/SphereControllerTest.o"
-	@echo "... Test/SphereControllerTest.i"
-	@echo "... Test/SphereControllerTest.s"
-	@echo "... Test/SphereModelTest.o"
-	@echo "... Test/SphereModelTest.i"
-	@echo "... Test/SphereModelTest.s"
-	@echo "... Test/SphereViewTest.o"
-	@echo "... Test/SphereViewTest.i"
-	@echo "... Test/SphereViewTest.s"
+	@echo "... VTKSphereWidget_autogen/mocs_compilation.o"
+	@echo "... VTKSphereWidget_autogen/mocs_compilation.i"
+	@echo "... VTKSphereWidget_autogen/mocs_compilation.s"
 	@echo "... View/SphereView.o"
 	@echo "... View/SphereView.i"
 	@echo "... View/SphereView.s"

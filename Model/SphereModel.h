@@ -12,10 +12,13 @@ class SphereModel {
 public:
     SphereModel();
     void setRadius(double r);
+    void setResolution(int t_r, int ph_r);
     double getRadius() const;
     vtkSmartPointer<vtkSphereSource> getSphereSource() const;
 
 private:
     double radius;
+    int th_res;
+    int phi_res;
     vtkSmartPointer<vtkSphereSource> sphereSource;
 };

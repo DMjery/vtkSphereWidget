@@ -17,20 +17,6 @@
 //Build VTK with shared libraries.
 BUILD_SHARED_LIBS:BOOL=ON
 
-//The directory containing a CMake configuration file for Boost.
-Boost_DIR:PATH=/usr/local/lib/cmake/Boost-1.88.0
-
-//Path to a file.
-Boost_INCLUDE_DIR:PATH=/usr/local/include
-
-Boost_SERIALIZATION_LIBRARY_RELEASE:STRING=/usr/local/lib/libboost_serialization.dylib
-
-//CGNS include directory
-CGNS_INCLUDE_DIR:PATH=/usr/local/include
-
-//CGNS library
-CGNS_LIBRARY:FILEPATH=/usr/local/lib/libcgns.dylib
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 
@@ -302,12 +288,6 @@ FREETYPE_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libfreetype.dylib
 //The directory containing a CMake configuration file for GTest.
 GTest_DIR:PATH=/usr/local/lib/cmake/GTest
 
-//HDF5 file differencing tool.
-HDF5_DIFF_EXECUTABLE:FILEPATH=/usr/local/bin/h5diff
-
-//The directory containing a CMake configuration file for HDF5.
-HDF5_DIR:PATH=/usr/local/lib/cmake/hdf5
-
 //Path to a file.
 JPEG_INCLUDE_DIR:PATH=/usr/local/include
 
@@ -316,21 +296,6 @@ JPEG_LIBRARY_DEBUG:FILEPATH=JPEG_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a library.
 JPEG_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libjpeg.dylib
-
-//jsoncpp include directory
-JsonCpp_INCLUDE_DIR:PATH=/usr/local/include
-
-//jsoncpp library
-JsonCpp_LIBRARY:FILEPATH=/usr/local/lib/libjsoncpp.dylib
-
-//Path to a file.
-LIBXML2_INCLUDE_DIR:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/libxml2
-
-//Path to a library.
-LIBXML2_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/lib/libxml2.tbd
-
-//Path to a program.
-LIBXML2_XMLLINT_EXECUTABLE:FILEPATH=/usr/bin/xmllint
 
 //lz4 include directory
 LZ4_INCLUDE_DIR:PATH=/usr/local/include
@@ -344,32 +309,8 @@ LZMA_INCLUDE_DIR:PATH=/usr/local/include
 //lzma library
 LZMA_LIBRARY:FILEPATH=/usr/local/lib/liblzma.dylib
 
-//libharu include directory
-LibHaru_INCLUDE_DIR:PATH=/usr/local/include
-
-//libharu debug library
-LibHaru_LIBRARY_DEBUG:FILEPATH=LibHaru_LIBRARY_DEBUG-NOTFOUND
-
-//libharu release library
-LibHaru_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libhpdf.dylib
-
-//libproj include directories
-LibPROJ_INCLUDE_DIR:PATH=/usr/local/include
-
-//libproj debug library
-LibPROJ_LIBRARY_DEBUG:FILEPATH=LibPROJ_LIBRARY_DEBUG-NOTFOUND
-
-//libproj release library
-LibPROJ_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libproj.dylib
-
 //Path to a program.
 MACDEPLOYQT_EXECUTABLE:FILEPATH=/usr/local/bin/macdeployqt
-
-//ogg include directory
-OGG_INCLUDE_DIR:PATH=/usr/local/include
-
-//ogg library
-OGG_LIBRARY:FILEPATH=/usr/local/lib/libogg.dylib
 
 //Include for OpenGL on OS X
 OPENGL_INCLUDE_DIR:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/System/Library/Frameworks/OpenGL.framework
@@ -402,12 +343,6 @@ QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH:STRING=
 //Additional directories where find(Qt6 ...) components are searched
 QT_ADDITIONAL_PACKAGES_PREFIX_PATH:STRING=
 
-//The directory containing a CMake configuration file for Qt6ConcurrentPrivate.
-Qt6ConcurrentPrivate_DIR:PATH=/usr/local/lib/cmake/Qt6ConcurrentPrivate
-
-//The directory containing a CMake configuration file for Qt6Concurrent.
-Qt6Concurrent_DIR:PATH=/usr/local/lib/cmake/Qt6Concurrent
-
 //The directory containing a CMake configuration file for Qt6CorePrivate.
 Qt6CorePrivate_DIR:PATH=/usr/local/lib/cmake/Qt6CorePrivate
 
@@ -426,9 +361,6 @@ Qt6DBusTools_DIR:PATH=/usr/local/lib/cmake/Qt6DBusTools
 //The directory containing a CMake configuration file for Qt6DBus.
 Qt6DBus_DIR:PATH=/usr/local/lib/cmake/Qt6DBus
 
-//The directory containing a CMake configuration file for Qt6ExamplesAssetDownloaderPrivate.
-Qt6ExamplesAssetDownloaderPrivate_DIR:PATH=/usr/local/lib/cmake/Qt6ExamplesAssetDownloaderPrivate
-
 //The directory containing a CMake configuration file for Qt6GuiPrivate.
 Qt6GuiPrivate_DIR:PATH=/usr/local/lib/cmake/Qt6GuiPrivate
 
@@ -437,12 +369,6 @@ Qt6GuiTools_DIR:PATH=/usr/local/lib/cmake/Qt6GuiTools
 
 //The directory containing a CMake configuration file for Qt6Gui.
 Qt6Gui_DIR:PATH=/usr/local/lib/cmake/Qt6Gui
-
-//The directory containing a CMake configuration file for Qt6NetworkPrivate.
-Qt6NetworkPrivate_DIR:PATH=/usr/local/lib/cmake/Qt6NetworkPrivate
-
-//The directory containing a CMake configuration file for Qt6Network.
-Qt6Network_DIR:PATH=/usr/local/lib/cmake/Qt6Network
 
 //The directory containing a CMake configuration file for Qt6OpenGLPrivate.
 Qt6OpenGLPrivate_DIR:PATH=/usr/local/lib/cmake/Qt6OpenGLPrivate
@@ -456,63 +382,6 @@ Qt6OpenGLWidgets_DIR:PATH=/usr/local/lib/cmake/Qt6OpenGLWidgets
 //The directory containing a CMake configuration file for Qt6OpenGL.
 Qt6OpenGL_DIR:PATH=/usr/local/lib/cmake/Qt6OpenGL
 
-//The directory containing a CMake configuration file for Qt6QmlAssetDownloaderPrivate.
-Qt6QmlAssetDownloaderPrivate_DIR:PATH=/usr/local/lib/cmake/Qt6QmlAssetDownloaderPrivate
-
-//The directory containing a CMake configuration file for Qt6QmlAssetDownloader.
-Qt6QmlAssetDownloader_DIR:PATH=/usr/local/lib/cmake/Qt6QmlAssetDownloader
-
-//The directory containing a CMake configuration file for Qt6QmlCompilerPlusPrivateTools.
-Qt6QmlCompilerPlusPrivateTools_DIR:PATH=Qt6QmlCompilerPlusPrivateTools_DIR-NOTFOUND
-
-//The directory containing a CMake configuration file for Qt6QmlIntegrationPrivate.
-Qt6QmlIntegrationPrivate_DIR:PATH=/usr/local/lib/cmake/Qt6QmlIntegrationPrivate
-
-//The directory containing a CMake configuration file for Qt6QmlIntegration.
-Qt6QmlIntegration_DIR:PATH=/usr/local/lib/cmake/Qt6QmlIntegration
-
-//The directory containing a CMake configuration file for Qt6QmlMetaPrivate.
-Qt6QmlMetaPrivate_DIR:PATH=/usr/local/lib/cmake/Qt6QmlMetaPrivate
-
-//The directory containing a CMake configuration file for Qt6QmlMeta.
-Qt6QmlMeta_DIR:PATH=/usr/local/lib/cmake/Qt6QmlMeta
-
-//The directory containing a CMake configuration file for Qt6QmlModelsPrivate.
-Qt6QmlModelsPrivate_DIR:PATH=/usr/local/lib/cmake/Qt6QmlModelsPrivate
-
-//The directory containing a CMake configuration file for Qt6QmlModels.
-Qt6QmlModels_DIR:PATH=/usr/local/lib/cmake/Qt6QmlModels
-
-//The directory containing a CMake configuration file for Qt6QmlPrivate.
-Qt6QmlPrivate_DIR:PATH=/usr/local/lib/cmake/Qt6QmlPrivate
-
-//The directory containing a CMake configuration file for Qt6QmlTools.
-Qt6QmlTools_DIR:PATH=/usr/local/lib/cmake/Qt6QmlTools
-
-//The directory containing a CMake configuration file for Qt6QmlWorkerScriptPrivate.
-Qt6QmlWorkerScriptPrivate_DIR:PATH=/usr/local/lib/cmake/Qt6QmlWorkerScriptPrivate
-
-//The directory containing a CMake configuration file for Qt6QmlWorkerScript.
-Qt6QmlWorkerScript_DIR:PATH=/usr/local/lib/cmake/Qt6QmlWorkerScript
-
-//The directory containing a CMake configuration file for Qt6Qml.
-Qt6Qml_DIR:PATH=/usr/local/lib/cmake/Qt6Qml
-
-//The directory containing a CMake configuration file for Qt6QuickPrivate.
-Qt6QuickPrivate_DIR:PATH=/usr/local/lib/cmake/Qt6QuickPrivate
-
-//The directory containing a CMake configuration file for Qt6QuickTools.
-Qt6QuickTools_DIR:PATH=/usr/local/lib/cmake/Qt6QuickTools
-
-//The directory containing a CMake configuration file for Qt6Quick.
-Qt6Quick_DIR:PATH=/usr/local/lib/cmake/Qt6Quick
-
-//The directory containing a CMake configuration file for Qt6SqlPrivate.
-Qt6SqlPrivate_DIR:PATH=/usr/local/lib/cmake/Qt6SqlPrivate
-
-//The directory containing a CMake configuration file for Qt6Sql.
-Qt6Sql_DIR:PATH=/usr/local/lib/cmake/Qt6Sql
-
 //The directory containing a CMake configuration file for Qt6WidgetsPrivate.
 Qt6WidgetsPrivate_DIR:PATH=/usr/local/lib/cmake/Qt6WidgetsPrivate
 
@@ -524,24 +393,6 @@ Qt6Widgets_DIR:PATH=/usr/local/lib/cmake/Qt6Widgets
 
 //The directory containing a CMake configuration file for Qt6.
 Qt6_DIR:PATH=/usr/local/lib/cmake/Qt6
-
-//Path to a file.
-SQLite3_INCLUDE_DIR:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include
-
-//Path to a library.
-SQLite3_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/lib/libsqlite3.tbd
-
-//theora include directory
-THEORA_INCLUDE_DIR:PATH=/usr/local/include
-
-//theora library
-THEORA_LIBRARY:FILEPATH=/usr/local/lib/libtheora.dylib
-
-//theora decoding library
-THEORA_dec_LIBRARY:FILEPATH=/usr/local/lib/libtheoradec.dylib
-
-//theora encoding library
-THEORA_enc_LIBRARY:FILEPATH=/usr/local/lib/libtheoraenc.dylib
 
 //Path to a file.
 TIFF_INCLUDE_DIR:PATH=/usr/local/include
@@ -591,12 +442,6 @@ ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
 //Path to a library.
 ZLIB_LIBRARY_RELEASE:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/lib/libz.tbd
 
-//The directory containing a CMake configuration file for boost_headers.
-boost_headers_DIR:PATH=/usr/local/lib/cmake/boost_headers-1.88.0
-
-//The directory containing a CMake configuration file for boost_serialization.
-boost_serialization_DIR:PATH=/usr/local/lib/cmake/boost_serialization-1.88.0
-
 //double-conversion include directory
 double-conversion_INCLUDE_DIR:PATH=/usr/local/include/double-conversion
 
@@ -606,20 +451,11 @@ double-conversion_LIBRARY:FILEPATH=/usr/local/lib/libdouble-conversion.dylib
 //The directory containing a CMake configuration file for freetype.
 freetype_DIR:PATH=freetype_DIR-NOTFOUND
 
-//The directory containing a CMake configuration file for netCDF.
-netCDF_DIR:PATH=/usr/local/lib/cmake/netCDF
-
 //The directory containing a CMake configuration file for nlohmann_json.
 nlohmann_json_DIR:PATH=/usr/local/share/cmake/nlohmann_json
 
 //Path to a library.
 pkgcfg_lib_PC_EXPAT_expat:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/lib/libexpat.tbd
-
-//Path to a library.
-pkgcfg_lib_PC_LIBXML_xml2:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/lib/libxml2.tbd
-
-//Path to a library.
-pkgcfg_lib_PC_SQLite3_sqlite3:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/lib/libsqlite3.tbd
 
 //The directory containing a CMake configuration file for pugixml.
 pugixml_DIR:PATH=/usr/local/lib/cmake/pugixml
@@ -632,12 +468,6 @@ utf8cpp_INCLUDE_DIR:PATH=/usr/local/include/utf8cpp
 # INTERNAL cache entries
 ########################
 
-//ADVANCED property for variable: Boost_DIR
-Boost_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CGNS_INCLUDE_DIR
-CGNS_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CGNS_LIBRARY
-CGNS_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -817,10 +647,6 @@ EXPAT_INCLUDE_DIR-ADVANCED:INTERNAL=1
 EXPAT_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Eigen3_INCLUDE_DIR
 Eigen3_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//Details about finding Boost
-FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/local/lib/cmake/Boost-1.88.0/BoostConfig.cmake][cfound components: serialization ][v1.88.0(1.88.0)]
-//Details about finding CGNS
-FIND_PACKAGE_MESSAGE_DETAILS_CGNS:INTERNAL=[/usr/local/include][/usr/local/lib/libcgns.dylib][v4.50(4.10)]
 //Details about finding EXPAT
 FIND_PACKAGE_MESSAGE_DETAILS_EXPAT:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/lib/libexpat.tbd][/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include][v2.6.3()]
 //Details about finding Eigen3
@@ -829,36 +655,16 @@ FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[/usr/local/include/eigen3][v3.4.0(
 FIND_PACKAGE_MESSAGE_DETAILS_Freetype:INTERNAL=[/usr/local/lib/libfreetype.dylib][/usr/local/include/freetype2][v2.13.3()]
 //Details about finding GTest
 FIND_PACKAGE_MESSAGE_DETAILS_GTest:INTERNAL=[/usr/local/lib/cmake/GTest/GTestConfig.cmake][c ][v1.17.0()]
-//Details about finding HDF5
-FIND_PACKAGE_MESSAGE_DETAILS_HDF5:INTERNAL=[hdf5-shared][/usr/local/include][cfound components: C HL ][v1.14.6()]
 //Details about finding JPEG
 FIND_PACKAGE_MESSAGE_DETAILS_JPEG:INTERNAL=[/usr/local/lib/libjpeg.dylib][/usr/local/include][v80()]
-//Details about finding JsonCpp
-FIND_PACKAGE_MESSAGE_DETAILS_JsonCpp:INTERNAL=[/usr/local/lib/libjsoncpp.dylib][/usr/local/include][v1.9.6(0.7.0)]
 //Details about finding LZ4
 FIND_PACKAGE_MESSAGE_DETAILS_LZ4:INTERNAL=[/usr/local/lib/liblz4.dylib][/usr/local/include][v1.10.0()]
 //Details about finding LZMA
 FIND_PACKAGE_MESSAGE_DETAILS_LZMA:INTERNAL=[/usr/local/lib/liblzma.dylib][/usr/local/include][v5.8.1()]
-//Details about finding LibHaru
-FIND_PACKAGE_MESSAGE_DETAILS_LibHaru:INTERNAL=[/usr/local/lib/libhpdf.dylib][/usr/local/include][v2.4.5(2.4.0)]
-//Details about finding LibPROJ
-FIND_PACKAGE_MESSAGE_DETAILS_LibPROJ:INTERNAL=[/usr/local/lib/libproj.dylib][/usr/local/include][v9.6.0()]
-//Details about finding LibXml2
-FIND_PACKAGE_MESSAGE_DETAILS_LibXml2:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/lib/libxml2.tbd][/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include/libxml2][v2.9.13()]
-//Details about finding NetCDF
-FIND_PACKAGE_MESSAGE_DETAILS_NetCDF:INTERNAL=[/usr/local/Cellar/netcdf/4.9.3/include][netCDF::netcdf][v4.9.3()]
-//Details about finding OGG
-FIND_PACKAGE_MESSAGE_DETAILS_OGG:INTERNAL=[/usr/local/lib/libogg.dylib][/usr/local/include][v()]
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/System/Library/Frameworks/OpenGL.framework][/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/System/Library/Frameworks/OpenGL.framework][c ][v()]
 //Details about finding PNG
 FIND_PACKAGE_MESSAGE_DETAILS_PNG:INTERNAL=[/usr/local/lib/libpng.dylib][/usr/local/include][v1.6.48()]
-//Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/local/Frameworks/Python.framework/Versions/3.13/bin/python3.13][/usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13][cfound components: Interpreter Development.Module Development.Embed ][v3.13.3(3.13)]
-//Details about finding SQLite3
-FIND_PACKAGE_MESSAGE_DETAILS_SQLite3:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include][/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/lib/libsqlite3.tbd][v3.43.2()]
-//Details about finding THEORA
-FIND_PACKAGE_MESSAGE_DETAILS_THEORA:INTERNAL=[/usr/local/lib/libtheora.dylib][/usr/local/lib/libtheoradec.dylib][/usr/local/lib/libtheoraenc.dylib][/usr/local/include][v()]
 //Details about finding TIFF
 FIND_PACKAGE_MESSAGE_DETAILS_TIFF:INTERNAL=[/usr/local/lib/libtiff.dylib][/usr/local/include][c ][v4.7.0()]
 //Details about finding Threads
@@ -885,44 +691,16 @@ FREETYPE_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 FREETYPE_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //Test HAVE_STDATOMIC
 HAVE_STDATOMIC:INTERNAL=1
-//ADVANCED property for variable: HDF5_DIFF_EXECUTABLE
-HDF5_DIFF_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: JPEG_INCLUDE_DIR
 JPEG_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: JPEG_LIBRARY_DEBUG
 JPEG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: JPEG_LIBRARY_RELEASE
 JPEG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: JsonCpp_INCLUDE_DIR
-JsonCpp_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: JsonCpp_LIBRARY
-JsonCpp_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: LIBXML2_INCLUDE_DIR
-LIBXML2_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: LIBXML2_LIBRARY
-LIBXML2_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: LIBXML2_XMLLINT_EXECUTABLE
-LIBXML2_XMLLINT_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: LZ4_INCLUDE_DIR
 LZ4_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: LZ4_LIBRARY
 LZ4_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: LibHaru_INCLUDE_DIR
-LibHaru_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: LibHaru_LIBRARY_DEBUG
-LibHaru_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: LibHaru_LIBRARY_RELEASE
-LibHaru_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: LibPROJ_INCLUDE_DIR
-LibPROJ_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: LibPROJ_LIBRARY_DEBUG
-LibPROJ_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: LibPROJ_LIBRARY_RELEASE
-LibPROJ_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OGG_INCLUDE_DIR
-OGG_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OGG_LIBRARY
-OGG_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_INCLUDE_DIR
 OPENGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_gl_LIBRARY
@@ -964,76 +742,6 @@ PC_EXPAT_expat_INCLUDEDIR:INTERNAL=
 PC_EXPAT_expat_LIBDIR:INTERNAL=
 PC_EXPAT_expat_PREFIX:INTERNAL=
 PC_EXPAT_expat_VERSION:INTERNAL=
-PC_LIBXML_CFLAGS:INTERNAL=
-PC_LIBXML_CFLAGS_I:INTERNAL=
-PC_LIBXML_CFLAGS_OTHER:INTERNAL=
-PC_LIBXML_FOUND:INTERNAL=1
-PC_LIBXML_INCLUDEDIR:INTERNAL=/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include
-PC_LIBXML_INCLUDE_DIRS:INTERNAL=
-PC_LIBXML_LDFLAGS:INTERNAL=-L/usr/lib;-lxml2
-PC_LIBXML_LDFLAGS_OTHER:INTERNAL=
-PC_LIBXML_LIBDIR:INTERNAL=/usr/lib
-PC_LIBXML_LIBRARIES:INTERNAL=xml2
-PC_LIBXML_LIBRARY_DIRS:INTERNAL=/usr/lib
-PC_LIBXML_LIBS:INTERNAL=
-PC_LIBXML_LIBS_L:INTERNAL=
-PC_LIBXML_LIBS_OTHER:INTERNAL=
-PC_LIBXML_LIBS_PATHS:INTERNAL=
-PC_LIBXML_MODULE_NAME:INTERNAL=libxml-2.0
-PC_LIBXML_PREFIX:INTERNAL=/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr
-PC_LIBXML_STATIC_CFLAGS:INTERNAL=
-PC_LIBXML_STATIC_CFLAGS_I:INTERNAL=
-PC_LIBXML_STATIC_CFLAGS_OTHER:INTERNAL=
-PC_LIBXML_STATIC_INCLUDE_DIRS:INTERNAL=
-PC_LIBXML_STATIC_LDFLAGS:INTERNAL=-L/usr/lib;-lxml2;-lz;-lpthread;-licucore;-lm
-PC_LIBXML_STATIC_LDFLAGS_OTHER:INTERNAL=
-PC_LIBXML_STATIC_LIBDIR:INTERNAL=
-PC_LIBXML_STATIC_LIBRARIES:INTERNAL=xml2;z;pthread;icucore;m
-PC_LIBXML_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib
-PC_LIBXML_STATIC_LIBS:INTERNAL=
-PC_LIBXML_STATIC_LIBS_L:INTERNAL=
-PC_LIBXML_STATIC_LIBS_OTHER:INTERNAL=
-PC_LIBXML_STATIC_LIBS_PATHS:INTERNAL=
-PC_LIBXML_VERSION:INTERNAL=2.9.13
-PC_LIBXML_libxml-2.0_INCLUDEDIR:INTERNAL=
-PC_LIBXML_libxml-2.0_LIBDIR:INTERNAL=
-PC_LIBXML_libxml-2.0_PREFIX:INTERNAL=
-PC_LIBXML_libxml-2.0_VERSION:INTERNAL=
-PC_SQLite3_CFLAGS:INTERNAL=
-PC_SQLite3_CFLAGS_I:INTERNAL=
-PC_SQLite3_CFLAGS_OTHER:INTERNAL=
-PC_SQLite3_FOUND:INTERNAL=1
-PC_SQLite3_INCLUDEDIR:INTERNAL=/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr/include
-PC_SQLite3_INCLUDE_DIRS:INTERNAL=
-PC_SQLite3_LDFLAGS:INTERNAL=-L/usr/lib;-lsqlite3
-PC_SQLite3_LDFLAGS_OTHER:INTERNAL=
-PC_SQLite3_LIBDIR:INTERNAL=/usr/lib
-PC_SQLite3_LIBRARIES:INTERNAL=sqlite3
-PC_SQLite3_LIBRARY_DIRS:INTERNAL=/usr/lib
-PC_SQLite3_LIBS:INTERNAL=
-PC_SQLite3_LIBS_L:INTERNAL=
-PC_SQLite3_LIBS_OTHER:INTERNAL=
-PC_SQLite3_LIBS_PATHS:INTERNAL=
-PC_SQLite3_MODULE_NAME:INTERNAL=sqlite3
-PC_SQLite3_PREFIX:INTERNAL=/Library/Developer/CommandLineTools/SDKs/MacOSX15.sdk/usr
-PC_SQLite3_STATIC_CFLAGS:INTERNAL=
-PC_SQLite3_STATIC_CFLAGS_I:INTERNAL=
-PC_SQLite3_STATIC_CFLAGS_OTHER:INTERNAL=
-PC_SQLite3_STATIC_INCLUDE_DIRS:INTERNAL=
-PC_SQLite3_STATIC_LDFLAGS:INTERNAL=-L/usr/lib;-lsqlite3
-PC_SQLite3_STATIC_LDFLAGS_OTHER:INTERNAL=
-PC_SQLite3_STATIC_LIBDIR:INTERNAL=
-PC_SQLite3_STATIC_LIBRARIES:INTERNAL=sqlite3
-PC_SQLite3_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib
-PC_SQLite3_STATIC_LIBS:INTERNAL=
-PC_SQLite3_STATIC_LIBS_L:INTERNAL=
-PC_SQLite3_STATIC_LIBS_OTHER:INTERNAL=
-PC_SQLite3_STATIC_LIBS_PATHS:INTERNAL=
-PC_SQLite3_VERSION:INTERNAL=3.43.2
-PC_SQLite3_sqlite3_INCLUDEDIR:INTERNAL=
-PC_SQLite3_sqlite3_LIBDIR:INTERNAL=
-PC_SQLite3_sqlite3_PREFIX:INTERNAL=
-PC_SQLite3_sqlite3_VERSION:INTERNAL=
 //ADVANCED property for variable: PKG_CONFIG_ARGN
 PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
@@ -1096,8 +804,6 @@ QT_FEATURE_avx512vl:INTERNAL=ON
 QT_FEATURE_backtrace:INTERNAL=ON
 //Qt feature: broken_threadlocal_dtors (from target Qt6::Core)
 QT_FEATURE_broken_threadlocal_dtors:INTERNAL=OFF
-//Qt feature: brotli (from target Qt6::Network)
-QT_FEATURE_brotli:INTERNAL=ON
 //Qt feature: buttongroup (from target Qt6::Widgets)
 QT_FEATURE_buttongroup:INTERNAL=ON
 //Qt feature: calendarwidget (from target Qt6::Widgets)
@@ -1198,8 +904,6 @@ QT_FEATURE_directwritecolrv1:INTERNAL=OFF
 QT_FEATURE_dladdr:INTERNAL=ON
 //Qt feature: dlopen (from target Qt6::Core)
 QT_FEATURE_dlopen:INTERNAL=ON
-//Qt feature: dnslookup (from target Qt6::Network)
-QT_FEATURE_dnslookup:INTERNAL=ON
 //Qt feature: doc_snippets (from target Qt6::Core)
 QT_FEATURE_doc_snippets:INTERNAL=OFF
 //Qt feature: dockwidget (from target Qt6::Widgets)
@@ -1210,8 +914,6 @@ QT_FEATURE_doubleconversion:INTERNAL=ON
 QT_FEATURE_draganddrop:INTERNAL=ON
 //Qt feature: drm_atomic (from target Qt6::Gui)
 QT_FEATURE_drm_atomic:INTERNAL=OFF
-//Qt feature: dtls (from target Qt6::Network)
-QT_FEATURE_dtls:INTERNAL=ON
 //Qt feature: dynamicgl (from target Qt6::Gui)
 QT_FEATURE_dynamicgl:INTERNAL=OFF
 //Qt feature: easingcurve (from target Qt6::Core)
@@ -1298,8 +1000,6 @@ QT_FEATURE_gestures:INTERNAL=ON
 QT_FEATURE_getauxval:INTERNAL=OFF
 //Qt feature: getentropy (from target Qt6::Core)
 QT_FEATURE_getentropy:INTERNAL=ON
-//Qt feature: getifaddrs (from target Qt6::Network)
-QT_FEATURE_getifaddrs:INTERNAL=ON
 //Qt feature: gif (from target Qt6::Gui)
 QT_FEATURE_gif:INTERNAL=ON
 //Qt feature: glib (from target Qt6::Core)
@@ -1314,8 +1014,6 @@ QT_FEATURE_graphicsframecapture:INTERNAL=ON
 QT_FEATURE_graphicsview:INTERNAL=ON
 //Qt feature: groupbox (from target Qt6::Widgets)
 QT_FEATURE_groupbox:INTERNAL=ON
-//Qt feature: gssapi (from target Qt6::Network)
-QT_FEATURE_gssapi:INTERNAL=ON
 //Qt feature: gtk3 (from target Qt6::Widgets)
 QT_FEATURE_gtk3:INTERNAL=OFF
 //Qt feature: gui (from target Qt6::Core)
@@ -1326,8 +1024,6 @@ QT_FEATURE_harfbuzz:INTERNAL=ON
 QT_FEATURE_highdpiscaling:INTERNAL=ON
 //Qt feature: hijricalendar (from target Qt6::Core)
 QT_FEATURE_hijricalendar:INTERNAL=ON
-//Qt feature: http (from target Qt6::Network)
-QT_FEATURE_http:INTERNAL=ON
 //Qt feature: ico (from target Qt6::Gui)
 QT_FEATURE_ico:INTERNAL=ON
 //Qt feature: icu (from target Qt6::Core)
@@ -1366,8 +1062,6 @@ QT_FEATURE_integrityfb:INTERNAL=OFF
 QT_FEATURE_integrityhid:INTERNAL=OFF
 //Qt feature: intelcet (from target Qt6::Core)
 QT_FEATURE_intelcet:INTERNAL=ON
-//Qt feature: ipv6ifname (from target Qt6::Network)
-QT_FEATURE_ipv6ifname:INTERNAL=ON
 //Qt feature: islamiccivilcalendar (from target Qt6::Core)
 QT_FEATURE_islamiccivilcalendar:INTERNAL=ON
 //Qt feature: itemmodel (from target Qt6::Core)
@@ -1400,12 +1094,8 @@ QT_FEATURE_libinput:INTERNAL=OFF
 QT_FEATURE_libinput_axis_api:INTERNAL=OFF
 //Qt feature: libinput_hires_wheel_support (from target Qt6::Gui)
 QT_FEATURE_libinput_hires_wheel_support:INTERNAL=OFF
-//Qt feature: libproxy (from target Qt6::Network)
-QT_FEATURE_libproxy:INTERNAL=OFF
 //Qt feature: library (from target Qt6::Core)
 QT_FEATURE_library:INTERNAL=ON
-//Qt feature: libresolv (from target Qt6::Network)
-QT_FEATURE_libresolv:INTERNAL=ON
 //Qt feature: libstdcpp_assertions (from target Qt6::Core)
 QT_FEATURE_libstdcpp_assertions:INTERNAL=OFF
 //Qt feature: libudev (from target Qt6::Core)
@@ -1414,16 +1104,12 @@ QT_FEATURE_libudev:INTERNAL=OFF
 QT_FEATURE_lineedit:INTERNAL=ON
 //Qt feature: linkat (from target Qt6::Core)
 QT_FEATURE_linkat:INTERNAL=OFF
-//Qt feature: linux_netlink (from target Qt6::Network)
-QT_FEATURE_linux_netlink:INTERNAL=OFF
 //Qt feature: linuxfb (from target Qt6::Gui)
 QT_FEATURE_linuxfb:INTERNAL=OFF
 //Qt feature: listview (from target Qt6::Widgets)
 QT_FEATURE_listview:INTERNAL=ON
 //Qt feature: listwidget (from target Qt6::Widgets)
 QT_FEATURE_listwidget:INTERNAL=ON
-//Qt feature: localserver (from target Qt6::Network)
-QT_FEATURE_localserver:INTERNAL=ON
 //Qt feature: localtime_r (from target Qt6::Core)
 QT_FEATURE_localtime_r:INTERNAL=ON
 //Qt feature: localtime_s (from target Qt6::Core)
@@ -1466,18 +1152,8 @@ QT_FEATURE_multiprocess:INTERNAL=ON
 QT_FEATURE_neon:INTERNAL=OFF
 //Qt feature: network (from target Qt6::Core)
 QT_FEATURE_network:INTERNAL=ON
-//Qt feature: networkdiskcache (from target Qt6::Network)
-QT_FEATURE_networkdiskcache:INTERNAL=ON
-//Qt feature: networkinterface (from target Qt6::Network)
-QT_FEATURE_networkinterface:INTERNAL=ON
-//Qt feature: networklistmanager (from target Qt6::Network)
-QT_FEATURE_networklistmanager:INTERNAL=OFF
-//Qt feature: networkproxy (from target Qt6::Network)
-QT_FEATURE_networkproxy:INTERNAL=ON
 //Qt feature: no_direct_extern_access (from target Qt6::Core)
 QT_FEATURE_no_direct_extern_access:INTERNAL=OFF
-//Qt feature: ocsp (from target Qt6::Network)
-QT_FEATURE_ocsp:INTERNAL=ON
 //Qt feature: opengl (from target Qt6::Gui)
 QT_FEATURE_opengl:INTERNAL=ON
 //Qt feature: opengles2 (from target Qt6::Gui)
@@ -1552,48 +1228,8 @@ QT_FEATURE_pthread_clockjoin:INTERNAL=OFF
 QT_FEATURE_pthread_condattr_setclock:INTERNAL=OFF
 //Qt feature: pthread_timedjoin (from target Qt6::Core)
 QT_FEATURE_pthread_timedjoin:INTERNAL=OFF
-//Qt feature: publicsuffix_qt (from target Qt6::Network)
-QT_FEATURE_publicsuffix_qt:INTERNAL=ON
-//Qt feature: publicsuffix_system (from target Qt6::Network)
-QT_FEATURE_publicsuffix_system:INTERNAL=OFF
 //Qt feature: pushbutton (from target Qt6::Widgets)
 QT_FEATURE_pushbutton:INTERNAL=ON
-//Qt feature: qml_animation (from target Qt6::Qml)
-QT_FEATURE_qml_animation:INTERNAL=ON
-//Qt feature: qml_debug (from target Qt6::Qml)
-QT_FEATURE_qml_debug:INTERNAL=ON
-//Qt feature: qml_delegate_model (from target Qt6::QmlModels)
-QT_FEATURE_qml_delegate_model:INTERNAL=ON
-//Qt feature: qml_itemmodel (from target Qt6::Qml)
-QT_FEATURE_qml_itemmodel:INTERNAL=ON
-//Qt feature: qml_jit (from target Qt6::Qml)
-QT_FEATURE_qml_jit:INTERNAL=ON
-//Qt feature: qml_list_model (from target Qt6::QmlModels)
-QT_FEATURE_qml_list_model:INTERNAL=ON
-//Qt feature: qml_locale (from target Qt6::Qml)
-QT_FEATURE_qml_locale:INTERNAL=ON
-//Qt feature: qml_network (from target Qt6::Qml)
-QT_FEATURE_qml_network:INTERNAL=ON
-//Qt feature: qml_object_model (from target Qt6::QmlModels)
-QT_FEATURE_qml_object_model:INTERNAL=ON
-//Qt feature: qml_preview (from target Qt6::Qml)
-QT_FEATURE_qml_preview:INTERNAL=ON
-//Qt feature: qml_profiler (from target Qt6::Qml)
-QT_FEATURE_qml_profiler:INTERNAL=ON
-//Qt feature: qml_python (from target Qt6::Qml)
-QT_FEATURE_qml_python:INTERNAL=ON
-//Qt feature: qml_ssl (from target Qt6::Qml)
-QT_FEATURE_qml_ssl:INTERNAL=ON
-//Qt feature: qml_table_model (from target Qt6::QmlModels)
-QT_FEATURE_qml_table_model:INTERNAL=ON
-//Qt feature: qml_type_loader_thread (from target Qt6::Qml)
-QT_FEATURE_qml_type_loader_thread:INTERNAL=ON
-//Qt feature: qml_worker_script (from target Qt6::Qml)
-QT_FEATURE_qml_worker_script:INTERNAL=ON
-//Qt feature: qml_xml_http_request (from target Qt6::Qml)
-QT_FEATURE_qml_xml_http_request:INTERNAL=ON
-//Qt feature: qml_xmllistmodel (from target Qt6::Qml)
-QT_FEATURE_qml_xmllistmodel:INTERNAL=ON
 //Qt feature: qqnx_imf (from target Qt6::Gui)
 QT_FEATURE_qqnx_imf:INTERNAL=OFF
 //Qt feature: qqnx_pps (from target Qt6::Core)
@@ -1602,45 +1238,6 @@ QT_FEATURE_qqnx_pps:INTERNAL=OFF
 QT_FEATURE_qt_framework:INTERNAL=ON
 //Qt feature: qtgui_threadpool (from target Qt6::Gui)
 QT_FEATURE_qtgui_threadpool:INTERNAL=ON
-//Qt feature: quick_animatedimage (from target Qt6::Quick)
-QT_FEATURE_quick_animatedimage:INTERNAL=ON
-//Qt feature: quick_canvas (from target Qt6::Quick)
-QT_FEATURE_quick_canvas:INTERNAL=ON
-//Qt feature: quick_designer (from target Qt6::Quick)
-QT_FEATURE_quick_designer:INTERNAL=ON
-//Qt feature: quick_draganddrop (from target Qt6::Quick)
-QT_FEATURE_quick_draganddrop:INTERNAL=ON
-//Qt feature: quick_flipable (from target Qt6::Quick)
-QT_FEATURE_quick_flipable:INTERNAL=ON
-//Qt feature: quick_gridview (from target Qt6::Quick)
-QT_FEATURE_quick_gridview:INTERNAL=ON
-//Qt feature: quick_itemview (from target Qt6::Quick)
-QT_FEATURE_quick_itemview:INTERNAL=ON
-//Qt feature: quick_listview (from target Qt6::Quick)
-QT_FEATURE_quick_listview:INTERNAL=ON
-//Qt feature: quick_particles (from target Qt6::Quick)
-QT_FEATURE_quick_particles:INTERNAL=ON
-//Qt feature: quick_path (from target Qt6::Quick)
-QT_FEATURE_quick_path:INTERNAL=ON
-//Qt feature: quick_pathview (from target Qt6::Quick)
-QT_FEATURE_quick_pathview:INTERNAL=ON
-//Qt feature: quick_pixmap_cache_threaded_download (from target
-// Qt6::Quick)
-QT_FEATURE_quick_pixmap_cache_threaded_download:INTERNAL=ON
-//Qt feature: quick_positioners (from target Qt6::Quick)
-QT_FEATURE_quick_positioners:INTERNAL=ON
-//Qt feature: quick_repeater (from target Qt6::Quick)
-QT_FEATURE_quick_repeater:INTERNAL=ON
-//Qt feature: quick_shadereffect (from target Qt6::Quick)
-QT_FEATURE_quick_shadereffect:INTERNAL=ON
-//Qt feature: quick_sprite (from target Qt6::Quick)
-QT_FEATURE_quick_sprite:INTERNAL=ON
-//Qt feature: quick_tableview (from target Qt6::Quick)
-QT_FEATURE_quick_tableview:INTERNAL=ON
-//Qt feature: quick_treeview (from target Qt6::Quick)
-QT_FEATURE_quick_treeview:INTERNAL=ON
-//Qt feature: quick_viewtransitions (from target Qt6::Quick)
-QT_FEATURE_quick_viewtransitions:INTERNAL=ON
 //Qt feature: radiobutton (from target Qt6::Widgets)
 QT_FEATURE_radiobutton:INTERNAL=ON
 //Qt feature: raster_64bit (from target Qt6::Gui)
@@ -1663,26 +1260,18 @@ QT_FEATURE_relocatable:INTERNAL=OFF
 QT_FEATURE_relro_now_linker:INTERNAL=OFF
 //Qt feature: renameat2 (from target Qt6::Core)
 QT_FEATURE_renameat2:INTERNAL=OFF
-//Qt feature: res_setservers (from target Qt6::Network)
-QT_FEATURE_res_setservers:INTERNAL=ON
 //Qt feature: resizehandler (from target Qt6::Widgets)
 QT_FEATURE_resizehandler:INTERNAL=ON
 //Qt feature: rpath (from target Qt6::Core)
 QT_FEATURE_rpath:INTERNAL=ON
 //Qt feature: rubberband (from target Qt6::Widgets)
 QT_FEATURE_rubberband:INTERNAL=ON
-//Qt feature: schannel (from target Qt6::Network)
-QT_FEATURE_schannel:INTERNAL=OFF
 //Qt feature: scrollarea (from target Qt6::Widgets)
 QT_FEATURE_scrollarea:INTERNAL=ON
 //Qt feature: scrollbar (from target Qt6::Widgets)
 QT_FEATURE_scrollbar:INTERNAL=ON
 //Qt feature: scroller (from target Qt6::Widgets)
 QT_FEATURE_scroller:INTERNAL=ON
-//Qt feature: sctp (from target Qt6::Network)
-QT_FEATURE_sctp:INTERNAL=OFF
-//Qt feature: securetransport (from target Qt6::Network)
-QT_FEATURE_securetransport:INTERNAL=ON
 //Qt feature: separate_debug_info (from target Qt6::Core)
 QT_FEATURE_separate_debug_info:INTERNAL=OFF
 //Qt feature: sessionmanager (from target Qt6::Gui)
@@ -1709,8 +1298,6 @@ QT_FEATURE_sizegrip:INTERNAL=ON
 QT_FEATURE_slider:INTERNAL=ON
 //Qt feature: slog2 (from target Qt6::Core)
 QT_FEATURE_slog2:INTERNAL=OFF
-//Qt feature: socks5 (from target Qt6::Network)
-QT_FEATURE_socks5:INTERNAL=ON
 //Qt feature: sortfilterproxymodel (from target Qt6::Core)
 QT_FEATURE_sortfilterproxymodel:INTERNAL=ON
 //Qt feature: spinbox (from target Qt6::Widgets)
@@ -1721,8 +1308,6 @@ QT_FEATURE_splashscreen:INTERNAL=ON
 QT_FEATURE_splitter:INTERNAL=ON
 //Qt feature: sql (from target Qt6::Core)
 QT_FEATURE_sql:INTERNAL=ON
-//Qt feature: sqlmodel (from target Qt6::Sql)
-QT_FEATURE_sqlmodel:INTERNAL=ON
 //Qt feature: sse2 (from target Qt6::Core)
 QT_FEATURE_sse2:INTERNAL=ON
 //Qt feature: sse3 (from target Qt6::Core)
@@ -1731,10 +1316,6 @@ QT_FEATURE_sse3:INTERNAL=ON
 QT_FEATURE_sse4_1:INTERNAL=ON
 //Qt feature: sse4_2 (from target Qt6::Core)
 QT_FEATURE_sse4_2:INTERNAL=ON
-//Qt feature: ssl (from target Qt6::Network)
-QT_FEATURE_ssl:INTERNAL=ON
-//Qt feature: sspi (from target Qt6::Network)
-QT_FEATURE_sspi:INTERNAL=OFF
 //Qt feature: ssse3 (from target Qt6::Core)
 QT_FEATURE_ssse3:INTERNAL=ON
 //Qt feature: stack_clash_protection (from target Qt6::Core)
@@ -1789,8 +1370,6 @@ QT_FEATURE_system_libb2:INTERNAL=ON
 QT_FEATURE_system_pcre2:INTERNAL=ON
 //Qt feature: system_png (from target Qt6::Gui)
 QT_FEATURE_system_png:INTERNAL=ON
-//Qt feature: system_proxies (from target Qt6::Network)
-QT_FEATURE_system_proxies:INTERNAL=ON
 //Qt feature: system_textmarkdownreader (from target Qt6::Gui)
 QT_FEATURE_system_textmarkdownreader:INTERNAL=ON
 //Qt feature: system_xcb_xinput (from target Qt6::Gui)
@@ -1851,8 +1430,6 @@ QT_FEATURE_toolbox:INTERNAL=ON
 QT_FEATURE_toolbutton:INTERNAL=ON
 //Qt feature: tooltip (from target Qt6::Widgets)
 QT_FEATURE_tooltip:INTERNAL=ON
-//Qt feature: topleveldomain (from target Qt6::Network)
-QT_FEATURE_topleveldomain:INTERNAL=ON
 //Qt feature: translation (from target Qt6::Core)
 QT_FEATURE_translation:INTERNAL=ON
 //Qt feature: transposeproxymodel (from target Qt6::Core)
@@ -1867,8 +1444,6 @@ QT_FEATURE_trivial_auto_var_init_pattern:INTERNAL=ON
 QT_FEATURE_tslib:INTERNAL=OFF
 //Qt feature: tuiotouch (from target Qt6::Gui)
 QT_FEATURE_tuiotouch:INTERNAL=ON
-//Qt feature: udpsocket (from target Qt6::Network)
-QT_FEATURE_udpsocket:INTERNAL=ON
 //Qt feature: undocommand (from target Qt6::Gui)
 QT_FEATURE_undocommand:INTERNAL=ON
 //Qt feature: undogroup (from target Qt6::Gui)
@@ -1955,18 +1530,6 @@ QT_FEATURE_xmlstreamwriter:INTERNAL=ON
 QT_FEATURE_xrender:INTERNAL=OFF
 //Qt feature: zstd (from target Qt6::Core)
 QT_FEATURE_zstd:INTERNAL=ON
-//ADVANCED property for variable: SQLite3_INCLUDE_DIR
-SQLite3_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: SQLite3_LIBRARY
-SQLite3_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: THEORA_INCLUDE_DIR
-THEORA_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: THEORA_LIBRARY
-THEORA_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: THEORA_dec_LIBRARY
-THEORA_dec_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: THEORA_enc_LIBRARY
-THEORA_enc_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: TIFF_INCLUDE_DIR
 TIFF_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: TIFF_LIBRARY_DEBUG
@@ -1991,46 +1554,14 @@ ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
-//Compiler reason failure
-_Python3_Compiler_REASON_FAILURE:INTERNAL=
-_Python3_DEVELOPMENT_EMBED_SIGNATURE:INTERNAL=74d2304c428aba52f46ad6ba66e557c7
-_Python3_DEVELOPMENT_MODULE_SIGNATURE:INTERNAL=7ea7fceeca6605fd5e6a6c8c99607547
-//Development reason failure
-_Python3_Development_REASON_FAILURE:INTERNAL=
-//Path to a program.
-_Python3_EXECUTABLE:INTERNAL=/usr/local/Frameworks/Python.framework/Versions/3.13/bin/python3.13
-//Path to a file.
-_Python3_INCLUDE_DIR:INTERNAL=/usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13
-//Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;13;3;64;<none>;cpython-313-darwin;abi3;/usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/lib/python3.13;/usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/lib/python3.13;/usr/local/lib/python3.13/site-packages;/usr/local/lib/python3.13/site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=133e2ff1251621b076d962675dda2845
-//Interpreter reason failure
-_Python3_Interpreter_REASON_FAILURE:INTERNAL=
-//Path to a library.
-_Python3_LIBRARY_RELEASE:INTERNAL=/usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/lib/libpython3.13.dylib
-//NumPy reason failure
-_Python3_NumPy_REASON_FAILURE:INTERNAL=
 __pkg_config_arguments_PC_EXPAT:INTERNAL=QUIET;expat
-__pkg_config_arguments_PC_LIBXML:INTERNAL=QUIET;libxml-2.0
-__pkg_config_arguments_PC_SQLite3:INTERNAL=QUIET;sqlite3
 __pkg_config_checked_PC_EXPAT:INTERNAL=1
-__pkg_config_checked_PC_LIBXML:INTERNAL=1
-__pkg_config_checked_PC_SQLite3:INTERNAL=1
-__qt_qml_macros_module_base_dir:INTERNAL=/usr/local/lib/cmake/Qt6Qml
-//ADVANCED property for variable: boost_headers_DIR
-boost_headers_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: boost_serialization_DIR
-boost_serialization_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: double-conversion_INCLUDE_DIR
 double-conversion_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: double-conversion_LIBRARY
 double-conversion_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_PC_EXPAT_expat
 pkgcfg_lib_PC_EXPAT_expat-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_PC_LIBXML_xml2
-pkgcfg_lib_PC_LIBXML_xml2-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_PC_SQLite3_sqlite3
-pkgcfg_lib_PC_SQLite3_sqlite3-ADVANCED:INTERNAL=1
 prefix_result:INTERNAL=/usr/lib
 //ADVANCED property for variable: utf8cpp_INCLUDE_DIR
 utf8cpp_INCLUDE_DIR-ADVANCED:INTERNAL=1
