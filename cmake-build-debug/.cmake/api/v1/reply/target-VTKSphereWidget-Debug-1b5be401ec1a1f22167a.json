@@ -480,11 +480,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "VTKSphereWidget_autogen::@6890427a1f51a3e7e1df"
+			"id" : "VTKSphereWidget_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "VTKSphereWidget_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "VTKSphereWidget_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "VTKSphereWidget::@6890427a1f51a3e7e1df",

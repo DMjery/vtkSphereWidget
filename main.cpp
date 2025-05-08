@@ -3,7 +3,9 @@
 #include "Model/SphereModel.h"
 #include "Controller/SphereController.h"
 #include "View/SphereView.h"
+
 int main(int argc, char* argv[]) {
+
     QApplication app(argc, argv);
     QMainWindow* mainWindow = new QMainWindow;
     SphereModel model;
