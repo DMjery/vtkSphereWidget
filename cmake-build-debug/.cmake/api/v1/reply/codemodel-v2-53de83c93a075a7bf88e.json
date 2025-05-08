@@ -17,7 +17,10 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -34,7 +37,10 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -45,6 +51,27 @@
 					"id" : "VTKSphereWidget::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-VTKSphereWidget-Debug-afc3402a44f73c4e2263.json",
 					"name" : "VTKSphereWidget",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "VTKSphereWidgetTests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VTKSphereWidgetTests-Debug-2aa34a7c8d9b8e14aff3.json",
+					"name" : "VTKSphereWidgetTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "VTKSphereWidgetTests_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VTKSphereWidgetTests_autogen-Debug-3d088424e9ade2b10bc5.json",
+					"name" : "VTKSphereWidgetTests_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "VTKSphereWidgetTests_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-VTKSphereWidgetTests_autogen_timestamp_deps-Debug-de39ab0aaeff928e2174.json",
+					"name" : "VTKSphereWidgetTests_autogen_timestamp_deps",
 					"projectIndex" : 0
 				},
 				{

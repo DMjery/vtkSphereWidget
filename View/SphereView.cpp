@@ -11,7 +11,7 @@ SphereView::SphereView(QWidget* parent) : QWidget(parent) {
     controlDock->setAllowedAreas(Qt::TopDockWidgetArea | Qt::LeftDockWidgetArea);
 
     controlDockTitle = new QLabel("Control Dock", this);
-    controlDockTitle->setMargin(20);
+    controlDockTitle->setMargin(10);
     controlDock->setTitleBarWidget(controlDockTitle);
 
     QWidget* dockContent = new QWidget(this);

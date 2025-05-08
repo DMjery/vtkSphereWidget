@@ -1,7 +1,7 @@
 #include "SphereController.h"
 
 SphereController::SphereController(SphereModel* model, SphereView* view)
-    : model(model), view(view), randEng(0),
+    : model(model), view(view), randEng(201),
       mapper(vtkSmartPointer<vtkDataSetMapper>::New()),
       actor(vtkSmartPointer<vtkActor>::New()),
       renderer(vtkSmartPointer<vtkRenderer>::New()) {
@@ -73,4 +73,12 @@ void SphereController::onRandButtonClicked(vtkSphereSource* sphere, vtkDataSetMa
     mapper->SetScalarModeToUsePointData();
     mapper->ColorByArrayComponent("Height", 0);
     window->Render();
+}
+
+SphereModel* SphereController::getModel() const {
+    return model;
+}
+
+SphereView* SphereController::getView() const {
+    return view;
 }
