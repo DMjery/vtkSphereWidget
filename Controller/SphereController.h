@@ -24,7 +24,8 @@ class SphereController : public QObject {
     Q_OBJECT
 public:
     SphereController(SphereModel* model, SphereView* view);
-
+    SphereModel* getModel() const;
+    SphereView* getView() const;
 private slots:
     /**
  * Deform the sphere source using a random amplitude and modes and render it in

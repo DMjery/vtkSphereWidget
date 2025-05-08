@@ -1,6 +1,7 @@
 #include "SphereModel.h"
 
-SphereModel::SphereModel() : radius(1.0), th_res(100), phi_res(100), sphereSource(vtkSmartPointer<vtkSphereSource>::New()) {
+SphereModel::SphereModel() : radius(1.0), th_res(100), phi_res(100),
+sphereSource(vtkSmartPointer<vtkSphereSource>::New()) {
     sphereSource->SetRadius(radius);
     sphereSource->SetThetaResolution(th_res);
     sphereSource->SetPhiResolution(phi_res);
@@ -13,8 +14,9 @@ void SphereModel::setRadius(double r) {
     sphereSource->Update();
 }
 void SphereModel::setResolution(int t_r, int ph_r) {
-    th_res = t_r;
-    phi_res = ph_r;
+    sphereSource->SetThetaResolution(t_r);
+    sphereSource->SetPhiResolution(ph_r);
+    sphereSource->Update();
 }
 
 double SphereModel::getRadius() const {

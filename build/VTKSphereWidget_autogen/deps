@@ -1420,6 +1420,22 @@ VTKSphereWidget_autogen/timestamp: \
 	/usr/local/lib/cmake/Qt6OpenGLWidgetsPrivate/Qt6OpenGLWidgetsPrivateDependencies.cmake \
 	/usr/local/lib/cmake/Qt6OpenGLWidgetsPrivate/Qt6OpenGLWidgetsPrivateTargets.cmake \
 	/usr/local/lib/cmake/Qt6OpenGLWidgetsPrivate/Qt6OpenGLWidgetsPrivateVersionlessAliasTargets.cmake \
+	/usr/local/lib/cmake/Qt6Test/Qt6TestAdditionalTargetInfo.cmake \
+	/usr/local/lib/cmake/Qt6Test/Qt6TestConfig.cmake \
+	/usr/local/lib/cmake/Qt6Test/Qt6TestConfigVersion.cmake \
+	/usr/local/lib/cmake/Qt6Test/Qt6TestConfigVersionImpl.cmake \
+	/usr/local/lib/cmake/Qt6Test/Qt6TestDependencies.cmake \
+	/usr/local/lib/cmake/Qt6Test/Qt6TestTargets-release.cmake \
+	/usr/local/lib/cmake/Qt6Test/Qt6TestTargets.cmake \
+	/usr/local/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake \
+	/usr/local/lib/cmake/Qt6Test/QtTestProperties.cmake \
+	/usr/local/lib/cmake/Qt6TestPrivate/Qt6TestPrivateAdditionalTargetInfo.cmake \
+	/usr/local/lib/cmake/Qt6TestPrivate/Qt6TestPrivateConfig.cmake \
+	/usr/local/lib/cmake/Qt6TestPrivate/Qt6TestPrivateConfigVersion.cmake \
+	/usr/local/lib/cmake/Qt6TestPrivate/Qt6TestPrivateConfigVersionImpl.cmake \
+	/usr/local/lib/cmake/Qt6TestPrivate/Qt6TestPrivateDependencies.cmake \
+	/usr/local/lib/cmake/Qt6TestPrivate/Qt6TestPrivateTargets.cmake \
+	/usr/local/lib/cmake/Qt6TestPrivate/Qt6TestPrivateVersionlessAliasTargets.cmake \
 	/usr/local/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
 	/usr/local/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
 	/usr/local/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-release.cmake \

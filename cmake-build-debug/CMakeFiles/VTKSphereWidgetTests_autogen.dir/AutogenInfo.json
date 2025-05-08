@@ -578,6 +578,24 @@
 		"/usr/local/Cellar/qt/6.9.0/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake",
 		"/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
 		"/usr/local/opt/qt@6/lib/cmake/Qt6/Qt6Dependencies.cmake",
+		"/usr/local/opt/qt@6/lib/cmake/Qt6Test/Qt6TestConfigVersion.cmake",
+		"/usr/local/opt/qt@6/lib/cmake/Qt6Test/Qt6TestConfigVersionImpl.cmake",
+		"/usr/local/opt/qt@6/lib/cmake/Qt6Test/Qt6TestConfig.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/local/opt/qt@6/lib/cmake/Qt6Test/Qt6TestDependencies.cmake",
+		"/usr/local/opt/qt@6/lib/cmake/Qt6Test/Qt6TestTargets.cmake",
+		"/usr/local/opt/qt@6/lib/cmake/Qt6Test/Qt6TestTargets-release.cmake",
+		"/usr/local/opt/qt@6/lib/cmake/Qt6Test/Qt6TestAdditionalTargetInfo.cmake",
+		"/usr/local/opt/qt@6/lib/cmake/Qt6TestPrivate/Qt6TestPrivateConfigVersion.cmake",
+		"/usr/local/opt/qt@6/lib/cmake/Qt6TestPrivate/Qt6TestPrivateConfigVersionImpl.cmake",
+		"/usr/local/opt/qt@6/lib/cmake/Qt6TestPrivate/Qt6TestPrivateConfig.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+		"/usr/local/opt/qt@6/lib/cmake/Qt6TestPrivate/Qt6TestPrivateDependencies.cmake",
+		"/usr/local/opt/qt@6/lib/cmake/Qt6TestPrivate/Qt6TestPrivateTargets.cmake",
+		"/usr/local/opt/qt@6/lib/cmake/Qt6TestPrivate/Qt6TestPrivateAdditionalTargetInfo.cmake",
+		"/usr/local/opt/qt@6/lib/cmake/Qt6TestPrivate/Qt6TestPrivateVersionlessAliasTargets.cmake",
+		"/usr/local/opt/qt@6/lib/cmake/Qt6Test/QtTestProperties.cmake",
+		"/usr/local/opt/qt@6/lib/cmake/Qt6Test/Qt6TestVersionlessAliasTargets.cmake",
 		"/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.30/Modules/FindGTest.cmake",
 		"/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.30/Modules/GoogleTest.cmake",
 		"/Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake",
@@ -598,7 +616,27 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "/Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/VTKSphereWidgetTests_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "VTKSphereWidgetTests_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/Users/Dani/CLionProjects/VTKSphereWidgetProject/Controller/SphereController.h",
+			"MU",
+			"TTE4PTQQBL/moc_SphereController.cpp",
+			null
+		],
+		[
+			"/Users/Dani/CLionProjects/VTKSphereWidgetProject/Model/SphereModel.h",
+			"MU",
+			"EXHL2H62WB/moc_SphereModel.cpp",
+			null
+		],
+		[
+			"/Users/Dani/CLionProjects/VTKSphereWidgetProject/View/SphereView.h",
+			"MU",
+			"WB4RFHLAU6/moc_SphereView.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/VTKSphereWidgetTests_autogen/include",
 	"MOC_COMPILATION_FILE" : "/Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/VTKSphereWidgetTests_autogen/mocs_compilation.cpp",
@@ -610,6 +648,9 @@
 		"QT_GUI_LIB",
 		"QT_OPENGLWIDGETS_LIB",
 		"QT_OPENGL_LIB",
+		"QT_TESTCASE_BUILDDIR=\"/Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug\"",
+		"QT_TESTCASE_SOURCEDIR=\"/Users/Dani/CLionProjects/VTKSphereWidgetProject\"",
+		"QT_TESTLIB_LIB",
 		"QT_WIDGETS_LIB",
 		"kiss_fft_scalar=double"
 	],
@@ -644,6 +685,8 @@
 		"/usr/local/opt/qt@6/lib/QtWidgets.framework",
 		"/usr/local/lib/QtOpenGLWidgets.framework/Headers",
 		"/usr/local/lib/QtOpenGLWidgets.framework",
+		"/usr/local/opt/qt@6/lib/QtTest.framework/Headers",
+		"/usr/local/opt/qt@6/lib/QtTest.framework",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1",
 		"/Library/Developer/CommandLineTools/usr/lib/clang/17/include",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include",
@@ -686,6 +729,16 @@
 	"SOURCES" : 
 	[
 		[
+			"/Users/Dani/CLionProjects/VTKSphereWidgetProject/Controller/SphereController.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/Dani/CLionProjects/VTKSphereWidgetProject/Model/SphereModel.cpp",
+			"MU",
+			null
+		],
+		[
 			"/Users/Dani/CLionProjects/VTKSphereWidgetProject/Test/SphereControllerTest.cpp",
 			"MU",
 			null
@@ -697,6 +750,11 @@
 		],
 		[
 			"/Users/Dani/CLionProjects/VTKSphereWidgetProject/Test/SphereViewTest.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/Dani/CLionProjects/VTKSphereWidgetProject/View/SphereView.cpp",
 			"MU",
 			null
 		]

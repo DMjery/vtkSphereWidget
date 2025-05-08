@@ -23,7 +23,7 @@ find_package(VTK REQUIRED COMPONENTS
         RenderingUI
         GUISupportQt)
 
-find_package(Qt6 REQUIRED COMPONENTS Widgets OpenGL)
+find_package(Qt6 REQUIRED COMPONENTS Test Widgets OpenGL)
 find_package(GTest REQUIRED)
 
 #include(${VTK_USE_FILE})
@@ -45,32 +45,42 @@ target_include_directories(VTKSphereWidget PRIVATE
 )
 
 target_link_libraries(VTKSphereWidget PRIVATE
-    ${VTK_LIBRARIES}
-    Qt6::Widgets
+        ${VTK_LIBRARIES}
+        Qt6::Widgets
         Qt6::OpenGL
 )
 
-#enable_testing()
-#
-#add_executable(VTKSphereWidgetTests
-#    Test/SphereModelTest.cpp
-#    Test/SphereControllerTest.cpp
-#    Test/SphereViewTest.cpp
-#)
+enable_testing()
 
-#target_include_directories(VTKSphereWidgetTests PRIVATE
-#        ${CMAKE_CURRENT_SOURCE_DIR}
-#        ${CMAKE_CURRENT_SOURCE_DIR}/Model
-#        ${CMAKE_CURRENT_SOURCE_DIR}/View
-#        ${CMAKE_CURRENT_SOURCE_DIR}/Controller
-#        ${GTEST_INCLUDE_DIRS}
-#)
+add_executable(VTKSphereWidgetTests
+        Test/SphereModelTest.cpp
+        Model/SphereModel.cpp
+        Test/SphereViewTest.cpp
+        View/SphereView.cpp
+        Controller/SphereController.cpp
+        Test/SphereControllerTest.cpp
+)
 
-#target_link_libraries(VTKSphereWidgetTests PRIVATE
-#    ${GTest_LIBRARIES}
-#    ${VTK_LIBRARIES}
-#        Qt6::OpenGL
-#        Qt6::Widgets
-#
-#)
+
+
+target_include_directories(VTKSphereWidgetTests PRIVATE
+        ${CMAKE_CURRENT_SOURCE_DIR}
+        ${CMAKE_CURRENT_SOURCE_DIR}/Model
+        ${CMAKE_CURRENT_SOURCE_DIR}/View
+        ${CMAKE_CURRENT_SOURCE_DIR}/Controller
+        ${GTEST_INCLUDE_DIRS}
+
+)
+
+
+target_link_libraries(VTKSphereWidgetTests PRIVATE
+        ${GTest_LIBRARIES}
+        ${VTK_LIBRARIES}
+        GTest::gtest
+        GTest::gtest_main
+        pthread
+        Qt6::OpenGL
+        Qt6::Widgets
+        Qt6::Test
+)
 

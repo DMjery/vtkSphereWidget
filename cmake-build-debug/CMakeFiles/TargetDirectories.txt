@@ -1,5 +1,9 @@
 /Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/CMakeFiles/VTKSphereWidget.dir
+/Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/CMakeFiles/VTKSphereWidgetTests.dir
+/Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/CMakeFiles/test.dir
 /Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/CMakeFiles/VTKSphereWidget_autogen_timestamp_deps.dir
 /Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/CMakeFiles/VTKSphereWidget_autogen.dir
+/Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/CMakeFiles/VTKSphereWidgetTests_autogen_timestamp_deps.dir
+/Users/Dani/CLionProjects/VTKSphereWidgetProject/cmake-build-debug/CMakeFiles/VTKSphereWidgetTests_autogen.dir
