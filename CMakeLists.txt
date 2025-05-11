@@ -4,6 +4,7 @@ project(VTKSphereWidget)
 set(CMAKE_PREFIX_PATH "/usr/local/opt/qt@6/lib/cmake")
 
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTORCC ON)
@@ -29,10 +30,12 @@ find_package(GTest REQUIRED)
 #include(${VTK_USE_FILE})
 
 add_executable(VTKSphereWidget
-    main.cpp
-    Model/SphereModel.cpp
-    View/SphereView.cpp
-    Controller/SphereController.cpp
+        main.cpp
+        Model/SphereModel.cpp
+        View/SphereView.cpp
+        Controller/SphereController.cpp
+        Settings/SphereSettings.cpp
+        Settings/SphereSettings.cpp
 )
 
 target_include_directories(VTKSphereWidget PRIVATE
@@ -42,6 +45,7 @@ target_include_directories(VTKSphereWidget PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/Model
         ${CMAKE_CURRENT_SOURCE_DIR}/View
         ${CMAKE_CURRENT_SOURCE_DIR}/Controller
+        ${CMAKE_CURRENT_SOURCE_DIR}/Settings
 )
 
 target_link_libraries(VTKSphereWidget PRIVATE
@@ -59,6 +63,7 @@ add_executable(VTKSphereWidgetTests
         View/SphereView.cpp
         Controller/SphereController.cpp
         Test/SphereControllerTest.cpp
+        Settings/SphereSettings.cpp
 )
 
 
@@ -68,6 +73,7 @@ target_include_directories(VTKSphereWidgetTests PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/Model
         ${CMAKE_CURRENT_SOURCE_DIR}/View
         ${CMAKE_CURRENT_SOURCE_DIR}/Controller
+        ${CMAKE_CURRENT_SOURCE_DIR}/Settings
         ${GTEST_INCLUDE_DIRS}
 
 )

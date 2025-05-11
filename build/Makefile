@@ -258,6 +258,33 @@ Model/SphereModel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidgetTests.dir/build.make CMakeFiles/VTKSphereWidgetTests.dir/Model/SphereModel.cpp.s
 .PHONY : Model/SphereModel.cpp.s
 
+Settings/SphereSettings.o: Settings/SphereSettings.cpp.o
+.PHONY : Settings/SphereSettings.o
+
+# target to build an object file
+Settings/SphereSettings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidget.dir/build.make CMakeFiles/VTKSphereWidget.dir/Settings/SphereSettings.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidgetTests.dir/build.make CMakeFiles/VTKSphereWidgetTests.dir/Settings/SphereSettings.cpp.o
+.PHONY : Settings/SphereSettings.cpp.o
+
+Settings/SphereSettings.i: Settings/SphereSettings.cpp.i
+.PHONY : Settings/SphereSettings.i
+
+# target to preprocess a source file
+Settings/SphereSettings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidget.dir/build.make CMakeFiles/VTKSphereWidget.dir/Settings/SphereSettings.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidgetTests.dir/build.make CMakeFiles/VTKSphereWidgetTests.dir/Settings/SphereSettings.cpp.i
+.PHONY : Settings/SphereSettings.cpp.i
+
+Settings/SphereSettings.s: Settings/SphereSettings.cpp.s
+.PHONY : Settings/SphereSettings.s
+
+# target to generate assembly for a file
+Settings/SphereSettings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidget.dir/build.make CMakeFiles/VTKSphereWidget.dir/Settings/SphereSettings.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidgetTests.dir/build.make CMakeFiles/VTKSphereWidgetTests.dir/Settings/SphereSettings.cpp.s
+.PHONY : Settings/SphereSettings.cpp.s
+
 Test/SphereControllerTest.o: Test/SphereControllerTest.cpp.o
 .PHONY : Test/SphereControllerTest.o
 
@@ -450,6 +477,9 @@ help:
 	@echo "... Model/SphereModel.o"
 	@echo "... Model/SphereModel.i"
 	@echo "... Model/SphereModel.s"
+	@echo "... Settings/SphereSettings.o"
+	@echo "... Settings/SphereSettings.i"
+	@echo "... Settings/SphereSettings.s"
 	@echo "... Test/SphereControllerTest.o"
 	@echo "... Test/SphereControllerTest.i"
 	@echo "... Test/SphereControllerTest.s"

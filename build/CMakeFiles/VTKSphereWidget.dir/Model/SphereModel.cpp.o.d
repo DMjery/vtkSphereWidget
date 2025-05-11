@@ -932,4 +932,5 @@ CMakeFiles/VTKSphereWidget.dir/Model/SphereModel.cpp.o: \
   /usr/local/include/vtk-9.4/vtkTypeList.txx \
   /usr/local/include/vtk-9.4/vtkCellLinks.h \
   /usr/local/include/vtk-9.4/vtkAbstractCellLinks.h \
-  /usr/local/include/vtk-9.4/vtkPolyDataInternals.h
+  /usr/local/include/vtk-9.4/vtkPolyDataInternals.h \
+  /Users/Dani/CLionProjects/VTKSphereWidgetProject/Settings/SphereSettings.h

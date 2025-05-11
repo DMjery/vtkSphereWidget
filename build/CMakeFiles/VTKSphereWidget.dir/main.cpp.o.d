@@ -1120,6 +1120,7 @@ CMakeFiles/VTKSphereWidget.dir/main.cpp.o: \
   /usr/local/include/vtk-9.4/vtkCellLinks.h \
   /usr/local/include/vtk-9.4/vtkAbstractCellLinks.h \
   /usr/local/include/vtk-9.4/vtkPolyDataInternals.h \
+  /Users/Dani/CLionProjects/VTKSphereWidgetProject/Settings/SphereSettings.h \
   /Users/Dani/CLionProjects/VTKSphereWidgetProject/Controller/SphereController.h \
   /Users/Dani/CLionProjects/VTKSphereWidgetProject/View/SphereView.h \
   /usr/local/lib/QtWidgets.framework/Headers/QApplication \
@@ -1139,10 +1140,14 @@ CMakeFiles/VTKSphereWidget.dir/main.cpp.o: \
   /usr/local/include/QtGui/qtextdocument.h \
   /usr/local/include/QtCore/qurl.h \
   /usr/local/lib/QtWidgets.framework/Headers/QMainWindow \
-  /usr/local/lib/QtCore.framework/Headers/QPointer.h \
+  /usr/local/lib/QtCore.framework/Headers/QPointer \
+  /usr/local/lib/QtCore.framework/Headers/qpointer.h \
   /usr/local/lib/QtWidgets.framework/Headers/QPushButton \
   /usr/local/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /usr/local/include/QtWidgets/qabstractbutton.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QSlider \
+  /usr/local/lib/QtWidgets.framework/Headers/qslider.h \
+  /usr/local/include/QtWidgets/qabstractslider.h \
   /usr/local/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /usr/local/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /usr/local/include/vtk-9.4/vtkGenericOpenGLRenderWindow.h \
@@ -1239,6 +1244,4 @@ CMakeFiles/VTKSphereWidget.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/seed_seq.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
-  /usr/local/include/vtk-9.4/vtkVersion.h \
-  /usr/local/include/vtk-9.4/vtkVersionMacros.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/c++/v1/__random/weibull_distribution.h

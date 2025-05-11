@@ -816,9 +816,11 @@
  mdp:/Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h
  mdp:/Users/Dani/CLionProjects/VTKSphereWidgetProject/Controller/SphereController.h
  mdp:/Users/Dani/CLionProjects/VTKSphereWidgetProject/Model/SphereModel.h
+ mdp:/Users/Dani/CLionProjects/VTKSphereWidgetProject/Settings/SphereSettings.h
  mdp:/Users/Dani/CLionProjects/VTKSphereWidgetProject/View/SphereView.h
  mdp:/Users/Dani/CLionProjects/VTKSphereWidgetProject/build/VTKSphereWidgetTests_autogen/moc_predefs.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QObject
+ mdp:/usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QPointer
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QScopedPointer
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/q17memory.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/q20functional.h
@@ -1001,9 +1003,11 @@
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QLabel
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QPushButton
+ mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QSlider
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QWidget
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h
+ mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qapplication.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qdockwidget.h
@@ -1015,6 +1019,7 @@
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h
+ mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qslider.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h
@@ -1159,8 +1164,9 @@
  mdp:/usr/local/Cellar/vtk/9.4.2_1/include/vtk-9.4/vtksys/SystemTools.hxx
 /Users/Dani/CLionProjects/VTKSphereWidgetProject/Test/SphereViewTest.cpp
 /Users/Dani/CLionProjects/VTKSphereWidgetProject/Model/SphereModel.h
-/Users/Dani/CLionProjects/VTKSphereWidgetProject/Test/SphereControllerTest.cpp
 /Users/Dani/CLionProjects/VTKSphereWidgetProject/View/SphereView.cpp
+/Users/Dani/CLionProjects/VTKSphereWidgetProject/Test/SphereControllerTest.cpp
+/Users/Dani/CLionProjects/VTKSphereWidgetProject/Settings/SphereSettings.h
 /Users/Dani/CLionProjects/VTKSphereWidgetProject/View/SphereView.h
  mmc:Q_OBJECT
  mdp:/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/include/Availability.h
@@ -1944,6 +1950,7 @@
  mdp:/Users/Dani/CLionProjects/VTKSphereWidgetProject/View/SphereView.h
  mdp:/Users/Dani/CLionProjects/VTKSphereWidgetProject/build/VTKSphereWidgetTests_autogen/moc_predefs.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QObject
+ mdp:/usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QPointer
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QScopedPointer
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/q17memory.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/q20functional.h
@@ -2126,9 +2133,11 @@
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QLabel
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QPushButton
+ mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QSlider
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QWidget
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h
+ mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qapplication.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qdockwidget.h
@@ -2140,6 +2149,7 @@
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h
+ mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qslider.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h
  mdp:/usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h
@@ -2206,5 +2216,6 @@
  mdp:/usr/local/Cellar/vtk/9.4.2_1/include/vtk-9.4/vtksys/Status.hxx
  mdp:/usr/local/Cellar/vtk/9.4.2_1/include/vtk-9.4/vtksys/SystemTools.hxx
 /Users/Dani/CLionProjects/VTKSphereWidgetProject/Model/SphereModel.cpp
+/Users/Dani/CLionProjects/VTKSphereWidgetProject/Settings/SphereSettings.cpp
 /Users/Dani/CLionProjects/VTKSphereWidgetProject/Controller/SphereController.cpp
 /Users/Dani/CLionProjects/VTKSphereWidgetProject/Test/SphereModelTest.cpp

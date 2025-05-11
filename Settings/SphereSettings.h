@@ -1,8 +1,20 @@
-//
-// Created by  Dani :) on 09/05/2025.
-//
+#pragma once
 
-#ifndef SPHERESETTINGS_H
-#define SPHERESETTINGS_H
+class SphereSettings {
+    public:
+    SphereSettings();
 
-#endif //SPHERESETTINGS_H
+    double radius;
+    int phi_resolution;
+    int theta_resolution;
+    int rand_seed;
+    int current_rand;
+};
+
+class QtSettings {
+    public:
+    QtSettings();
+
+    int radius_min;
+    int radius_max;
+};

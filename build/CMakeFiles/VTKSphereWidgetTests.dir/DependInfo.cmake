@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "VTKSphereWidgetTests_autogen/timestamp" "custom" "VTKSphereWidgetTests_autogen/deps"
   "/Users/Dani/CLionProjects/VTKSphereWidgetProject/Controller/SphereController.cpp" "CMakeFiles/VTKSphereWidgetTests.dir/Controller/SphereController.cpp.o" "gcc" "CMakeFiles/VTKSphereWidgetTests.dir/Controller/SphereController.cpp.o.d"
   "/Users/Dani/CLionProjects/VTKSphereWidgetProject/Model/SphereModel.cpp" "CMakeFiles/VTKSphereWidgetTests.dir/Model/SphereModel.cpp.o" "gcc" "CMakeFiles/VTKSphereWidgetTests.dir/Model/SphereModel.cpp.o.d"
+  "/Users/Dani/CLionProjects/VTKSphereWidgetProject/Settings/SphereSettings.cpp" "CMakeFiles/VTKSphereWidgetTests.dir/Settings/SphereSettings.cpp.o" "gcc" "CMakeFiles/VTKSphereWidgetTests.dir/Settings/SphereSettings.cpp.o.d"
   "/Users/Dani/CLionProjects/VTKSphereWidgetProject/Test/SphereControllerTest.cpp" "CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereControllerTest.cpp.o" "gcc" "CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereControllerTest.cpp.o.d"
   "/Users/Dani/CLionProjects/VTKSphereWidgetProject/Test/SphereModelTest.cpp" "CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereModelTest.cpp.o" "gcc" "CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereModelTest.cpp.o.d"
   "/Users/Dani/CLionProjects/VTKSphereWidgetProject/Test/SphereViewTest.cpp" "CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereViewTest.cpp.o" "gcc" "CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereViewTest.cpp.o.d"

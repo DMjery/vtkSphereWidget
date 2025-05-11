@@ -1144,6 +1144,7 @@ CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereControllerTest.cpp.o: \
   /usr/local/include/vtk-9.4/vtkCellLinks.h \
   /usr/local/include/vtk-9.4/vtkAbstractCellLinks.h \
   /usr/local/include/vtk-9.4/vtkPolyDataInternals.h \
+  /Users/Dani/CLionProjects/VTKSphereWidgetProject/Settings/SphereSettings.h \
   /Users/Dani/CLionProjects/VTKSphereWidgetProject/View/SphereView.h \
   /usr/local/lib/QtWidgets.framework/Headers/QDockWidget \
   /usr/local/lib/QtWidgets.framework/Headers/qdockwidget.h \
@@ -1173,10 +1174,14 @@ CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereControllerTest.cpp.o: \
   /usr/local/lib/QtWidgets.framework/Headers/QMainWindow \
   /usr/local/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /usr/local/include/QtWidgets/qtabwidget.h \
-  /usr/local/lib/QtCore.framework/Headers/QPointer.h \
+  /usr/local/lib/QtCore.framework/Headers/QPointer \
+  /usr/local/lib/QtCore.framework/Headers/qpointer.h \
   /usr/local/lib/QtWidgets.framework/Headers/QPushButton \
   /usr/local/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /usr/local/include/QtWidgets/qabstractbutton.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QSlider \
+  /usr/local/lib/QtWidgets.framework/Headers/qslider.h \
+  /usr/local/include/QtWidgets/qabstractslider.h \
   /usr/local/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /usr/local/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /usr/local/include/vtk-9.4/vtkGenericOpenGLRenderWindow.h \

@@ -631,6 +631,12 @@
 			null
 		],
 		[
+			"/Users/Dani/CLionProjects/VTKSphereWidgetProject/Settings/SphereSettings.h",
+			"MU",
+			"O2BZNLJYKV/moc_SphereSettings.cpp",
+			null
+		],
+		[
 			"/Users/Dani/CLionProjects/VTKSphereWidgetProject/View/SphereView.h",
 			"MU",
 			"WB4RFHLAU6/moc_SphereView.cpp",
@@ -666,6 +672,7 @@
 		"/Users/Dani/CLionProjects/VTKSphereWidgetProject/Model",
 		"/Users/Dani/CLionProjects/VTKSphereWidgetProject/View",
 		"/Users/Dani/CLionProjects/VTKSphereWidgetProject/Controller",
+		"/Users/Dani/CLionProjects/VTKSphereWidgetProject/Settings",
 		"/usr/local/opt/qt@6/lib/QtWidgets.framework/Headers",
 		"/usr/local/opt/qt@6/lib/QtWidgets.framework",
 		"/usr/local/opt/qt@6/lib/QtCore.framework/Headers",
@@ -729,6 +736,11 @@
 		],
 		[
 			"/Users/Dani/CLionProjects/VTKSphereWidgetProject/Model/SphereModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/Dani/CLionProjects/VTKSphereWidgetProject/Settings/SphereSettings.cpp",
 			"MU",
 			null
 		],

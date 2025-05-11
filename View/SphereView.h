@@ -4,9 +4,12 @@
 #include <QGridLayout>
 #include <QLabel>
 #include <QMainWindow>
-#include <QPointer.h>
+#include <QPointer>
 #include <QPushButton>
+#include <QSlider>
 #include <QVBoxLayout>
+#include <QGridLayout>
+
 #include <vtkGenericOpenGLRenderWindow.h>
 #include <QVTKOpenGLNativeWidget.h>
 
@@ -24,12 +27,14 @@ public:
     QDockWidget* getControlDock() const;
     QVTKOpenGLNativeWidget* getQVNativeWidget() const;
     QPushButton* getRandButton() const;
+    QSlider* getSlider() const;
 
 private:
     QDockWidget* controlDock;
     QLabel* controlDockTitle;
-    QVBoxLayout* qvBoxLayout;
+    QGridLayout* gridLayout;
     QPushButton* randButton;
+    QSlider* radiusSlider;
     QVTKOpenGLNativeWidget* qvtkNativeWidget;
 
 };

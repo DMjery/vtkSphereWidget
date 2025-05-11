@@ -1,48 +1,47 @@
 #include "SphereController.h"
 
+
+// SphereSettings sphere_settings;
+// QtSettings qt_settings;
+
 SphereController::SphereController(SphereModel* model, SphereView* view)
-    : model(model), view(view), randEng(201),
+    : model(model), view(view), randEng(model->getSphereSettings().rand_seed),
       mapper(vtkSmartPointer<vtkDataSetMapper>::New()),
       actor(vtkSmartPointer<vtkActor>::New()),
-      renderer(vtkSmartPointer<vtkRenderer>::New()) {
+      renderer(vtkSmartPointer<vtkRenderer>::New()),
+      renderWindow( vtkSmartPointer<vtkGenericOpenGLRenderWindow>::New()){
 
     mapper->SetInputConnection(model->getSphereSource()->GetOutputPort());
     actor->SetMapper(mapper);
     renderer->AddActor(actor);
     renderer->SetBackground(0.2, 0.3, 0.4);
-
-// Connect vtkrender -> vtkgenericrendwin -> qvtkopengl
-    vtkSmartPointer<vtkGenericOpenGLRenderWindow> renderWindow =
-    vtkSmartPointer<vtkGenericOpenGLRenderWindow>::New();
     renderWindow->AddRenderer(renderer);
+
     view->getQVNativeWidget()->setRenderWindow(renderWindow);
 
 // Initialize first visualization
-    onRandButtonClicked(model->getSphereSource(), mapper, renderWindow, randEng);
+    onRandButtonClicked();
 
 // Connect the rand button to random visualization generator
     QObject::connect(view->getRandButton(), &QPushButton::released, this,
-                     [=]() {
-                         this->onRandButtonClicked(
-                         model->getSphereSource(), this->mapper,
-                         renderWindow, randEng);
-                     });
+        &SphereController::onRandButtonClicked);
 
-    view->getQVNativeWidget()->renderWindow()->Render();
+    QObject::connect(view->getSlider(), &QSlider::valueChanged, this,
+        &SphereController::onSliderValueChanged);
+
 }
 
-void SphereController::onRandButtonClicked(vtkSphereSource* sphere, vtkDataSetMapper* mapper,
-           vtkGenericOpenGLRenderWindow* window, std::mt19937& randEng) {
-    // Generate randomness.
-    double randAmp = 0.2 + ((randEng() % 1000) / 1000.0) * 0.2;
-    double randThetaFreq = 1.0 + (randEng() % 9);
-    double randPhiFreq = 1.0 + (randEng() % 9);
+vtkSmartPointer<vtkPolyData> SphereController::getDeformedSphere() const {
+
+    double randAmp = 0.2 + ((model->getSphereSettings().current_rand % 1000) / 1000.0) * 0.2;
+    double randThetaFreq = 1.0 + (model->getSphereSettings().current_rand % 9);
+    double randPhiFreq = 1.0 + (model->getSphereSettings().current_rand % 9);
 
     // Extract and prepare data.
-    sphere->Update();
+    model->getSphereSource()->Update();
     vtkSmartPointer<vtkPolyData> newSphere = vtkSmartPointer<vtkPolyData>::New();
-    newSphere.TakeReference(sphere->GetOutput()->NewInstance());
-    newSphere->DeepCopy(sphere->GetOutput());
+    newSphere.TakeReference(model->getSphereSource()->GetOutput()->NewInstance());
+    newSphere->DeepCopy(model->getSphereSource()->GetOutput());
     vtkNew<vtkDoubleArray> height;
     height->SetName("Height");
     height->SetNumberOfComponents(1);
@@ -67,12 +66,25 @@ void SphereController::onRandButtonClicked(vtkSphereSource* sphere, vtkDataSetMa
     }
 
     newSphere->GetPointData()->SetScalars(height);
+    return newSphere;
+}
+
+void SphereController::onRandButtonClicked() {
+    // Generate randomness.
+    model->setCurrentRand(randEng());
 
     // Reconfigure the pipeline to take the new deformed sphere.
-    mapper->SetInputDataObject(newSphere);
+    mapper->SetInputDataObject(getDeformedSphere());
     mapper->SetScalarModeToUsePointData();
     mapper->ColorByArrayComponent("Height", 0);
-    window->Render();
+    renderWindow->Render();
+}
+
+void SphereController::onSliderValueChanged(int value) {
+    model->setRadius(value/10.0);
+    mapper->SetInputDataObject(getDeformedSphere());
+    mapper->Update();
+    renderWindow->Render();
 }
 
 SphereModel* SphereController::getModel() const {

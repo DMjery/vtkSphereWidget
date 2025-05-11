@@ -42,20 +42,16 @@ template <> constexpr inline auto SphereController::qt_create_metaobjectdata<qt_
         "SphereController",
         "onRandButtonClicked",
         "",
-        "vtkSphereSource*",
-        "sphere",
-        "vtkDataSetMapper*",
-        "mapper",
-        "vtkGenericOpenGLRenderWindow*",
-        "window",
-        "std::mt19937&",
-        "randEng"
+        "onSliderValueChanged",
+        "value"
     };
 
     QtMocHelpers::UintData qt_methods {
         // Slot 'onRandButtonClicked'
-        QtMocHelpers::SlotData<void(vtkSphereSource *, vtkDataSetMapper *, vtkGenericOpenGLRenderWindow *, std::mt19937 &)>(1, 2, QMC::AccessPrivate, QMetaType::Void, {{
-            { 0x80000000 | 3, 4 }, { 0x80000000 | 5, 6 }, { 0x80000000 | 7, 8 }, { 0x80000000 | 9, 10 },
+        QtMocHelpers::SlotData<void()>(1, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onSliderValueChanged'
+        QtMocHelpers::SlotData<void(int)>(3, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { QMetaType::Int, 4 },
         }}),
     };
     QtMocHelpers::UintData qt_properties {
@@ -80,7 +76,8 @@ void SphereController::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int
     auto *_t = static_cast<SphereController *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->onRandButtonClicked((*reinterpret_cast< std::add_pointer_t<vtkSphereSource*>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<vtkDataSetMapper*>>(_a[2])),(*reinterpret_cast< std::add_pointer_t<vtkGenericOpenGLRenderWindow*>>(_a[3])),(*reinterpret_cast< std::add_pointer_t<std::mt19937&>>(_a[4]))); break;
+        case 0: _t->onRandButtonClicked(); break;
+        case 1: _t->onSliderValueChanged((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
         default: ;
         }
     }
@@ -105,14 +102,14 @@ int SphereController::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 2)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 2;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 1)
+        if (_id < 2)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 1;
+        _id -= 2;
     }
     return _id;
 }

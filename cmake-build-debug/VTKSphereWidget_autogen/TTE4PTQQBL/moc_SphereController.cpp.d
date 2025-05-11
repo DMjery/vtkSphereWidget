@@ -814,8 +814,10 @@
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
   /Users/Dani/CLionProjects/VTKSphereWidgetProject/Model/SphereModel.h \
+  /Users/Dani/CLionProjects/VTKSphereWidgetProject/Settings/SphereSettings.h \
   /Users/Dani/CLionProjects/VTKSphereWidgetProject/View/SphereView.h \
   /usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QObject \
+  /usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QPointer \
   /usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QScopedPointer \
   /usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/q17memory.h \
   /usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
@@ -998,9 +1000,11 @@
   /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
   /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
   /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QSlider \
   /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QVBoxLayout \
   /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
   /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+  /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h \
   /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qapplication.h \
   /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
   /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qdockwidget.h \
@@ -1012,6 +1016,7 @@
   /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
   /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
   /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qslider.h \
   /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
   /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /usr/local/Cellar/qt/6.9.0/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \

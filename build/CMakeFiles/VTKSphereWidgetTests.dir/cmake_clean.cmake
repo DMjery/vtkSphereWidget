@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/VTKSphereWidgetTests.dir/Controller/SphereController.cpp.o.d"
   "CMakeFiles/VTKSphereWidgetTests.dir/Model/SphereModel.cpp.o"
   "CMakeFiles/VTKSphereWidgetTests.dir/Model/SphereModel.cpp.o.d"
+  "CMakeFiles/VTKSphereWidgetTests.dir/Settings/SphereSettings.cpp.o"
+  "CMakeFiles/VTKSphereWidgetTests.dir/Settings/SphereSettings.cpp.o.d"
   "CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereControllerTest.cpp.o"
   "CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereControllerTest.cpp.o.d"
   "CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereModelTest.cpp.o"

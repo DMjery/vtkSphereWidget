@@ -9,6 +9,7 @@
 #include <vtkPointData.h>
 #include <vtkSphereSource.h>
 #include <vtkDoubleArray.h>
+#include <SphereSettings.h>
 #include <vtkPolyData.h>
 #include <cmath>
 #include <cstdlib>
@@ -26,6 +27,7 @@ public:
     SphereController(SphereModel* model, SphereView* view);
     SphereModel* getModel() const;
     SphereView* getView() const;
+    vtkSmartPointer<vtkPolyData> getDeformedSphere() const;
 private slots:
     /**
  * Deform the sphere source using a random amplitude and modes and render it in
@@ -36,8 +38,9 @@ private slots:
  * @param window the window to render to
  * @param randEng the random number generator engine
  */
-    void onRandButtonClicked(vtkSphereSource* sphere, vtkDataSetMapper* mapper,
-           vtkGenericOpenGLRenderWindow* window, std::mt19937& randEng);
+    void onRandButtonClicked();
+
+    void onSliderValueChanged(int value);
 
 private:
     SphereModel* model;
@@ -46,4 +49,5 @@ private:
     vtkSmartPointer<vtkActor> actor;
     vtkSmartPointer<vtkRenderer> renderer;
     vtkSmartPointer<vtkDataSetMapper> mapper;
+    vtkSmartPointer<vtkGenericOpenGLRenderWindow> renderWindow;
 };
