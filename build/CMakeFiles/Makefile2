@@ -89,8 +89,8 @@ clean: CMakeFiles/VTKSphereWidgetTests_autogen.dir/clean
 # Target rules for target CMakeFiles/VTKSphereWidget.dir
 
 # All Build rule for target.
-CMakeFiles/VTKSphereWidget.dir/all: CMakeFiles/VTKSphereWidget_autogen_timestamp_deps.dir/all
 CMakeFiles/VTKSphereWidget.dir/all: CMakeFiles/VTKSphereWidget_autogen.dir/all
+CMakeFiles/VTKSphereWidget.dir/all: CMakeFiles/VTKSphereWidget_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidget.dir/build.make CMakeFiles/VTKSphereWidget.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/VTKSphereWidget.dir/build.make CMakeFiles/VTKSphereWidget.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/Dani/CLionProjects/VTKSphereWidgetProject/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target VTKSphereWidget"

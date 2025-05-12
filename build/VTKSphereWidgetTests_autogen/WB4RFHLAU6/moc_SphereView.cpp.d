@@ -778,6 +778,7 @@
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_list.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
+  /Users/Dani/CLionProjects/VTKSphereWidgetProject/Settings/SphereSettings.h \
   /usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QObject \
   /usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QPointer \
   /usr/local/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers/QScopedPointer \

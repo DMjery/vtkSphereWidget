@@ -1162,4 +1162,5 @@ CMakeFiles/VTKSphereWidgetTests.dir/Test/SphereViewTest.cpp.o: \
   /usr/local/include/vtk-9.4/vtkGUISupportQtModule.h \
   /usr/local/include/QtCore/QObject \
   /usr/local/include/vtk-9.4/vtkRenderWindowInteractor.h \
-  /usr/local/include/vtk-9.4/vtkTDxConfigure.h
+  /usr/local/include/vtk-9.4/vtkTDxConfigure.h \
+  /Users/Dani/CLionProjects/VTKSphereWidgetProject/Settings/SphereSettings.h

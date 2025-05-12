@@ -6,7 +6,7 @@
 SphereView::SphereView(QWidget* parent) : QWidget(parent) {
     QSurfaceFormat::setDefaultFormat(QVTKOpenGLNativeWidget::defaultFormat());
 
-
+    QtSettings qt_settings;
     // VTK Widget (Main rendering area)
     qvtkNativeWidget = new QVTKOpenGLNativeWidget(this);
 
@@ -22,12 +22,13 @@ SphereView::SphereView(QWidget* parent) : QWidget(parent) {
 
     randButton = new QPushButton("Randomize", dockContent);
     radiusSlider = new QSlider(Qt::Vertical, dockContent);
-    QLabel* radiusLabel = new QLabel("Radius", dockContent);
+    radiusLabel = new QLabel(dockContent);
 
-    radiusSlider->setValue(1.0);
-    radiusSlider->setMaximum(100);
-    radiusSlider->setMinimum(1);
-    // qvBoxLayout->addWidget(randButton);
+
+    radiusSlider->setValue(0);
+    radiusSlider->setMaximum(qt_settings.radius_max/10.0);
+    radiusSlider->setMinimum(qt_settings.radius_min/10.0);
+    radiusLabel->setText(QString("radius: %1").arg(radiusSlider->value()));
     gridLayout->addWidget(randButton, 3, 0, 1, 2);
     gridLayout->addWidget(radiusLabel, 4,0, Qt::AlignCenter);
     gridLayout->addWidget(radiusSlider, 4, 1,Qt::AlignCenter);
@@ -36,7 +37,6 @@ SphereView::SphereView(QWidget* parent) : QWidget(parent) {
 
     // Layout
     QGridLayout* mainLayout = new QGridLayout(this);
-    // auto* mainLayout = new QVBoxLayout(this);
     mainLayout->addWidget(qvtkNativeWidget);
     setLayout(mainLayout);
 
@@ -57,6 +57,10 @@ QSlider* SphereView::getSlider() const {
 
 QVTKOpenGLNativeWidget* SphereView::getQVNativeWidget () const {
     return qvtkNativeWidget;
+}
+
+void SphereView::update_slider_label() const {
+    radiusLabel->setText(QString("radius: %1").arg(radiusSlider->value()/10.0));
 }
 
 

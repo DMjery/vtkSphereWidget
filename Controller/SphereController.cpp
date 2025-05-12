@@ -82,6 +82,7 @@ void SphereController::onRandButtonClicked() {
 
 void SphereController::onSliderValueChanged(int value) {
     model->setRadius(value/10.0);
+    view->update_slider_label();
     mapper->SetInputDataObject(getDeformedSphere());
     mapper->Update();
     renderWindow->Render();

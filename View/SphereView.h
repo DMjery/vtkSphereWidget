@@ -9,9 +9,10 @@
 #include <QSlider>
 #include <QVBoxLayout>
 #include <QGridLayout>
-
 #include <vtkGenericOpenGLRenderWindow.h>
 #include <QVTKOpenGLNativeWidget.h>
+
+#include <SphereSettings.h>
 
 
 /**
@@ -24,17 +25,20 @@ class SphereView : public QWidget {
     Q_OBJECT
 public:
     explicit SphereView(QWidget* parent = nullptr);
+
     QDockWidget* getControlDock() const;
     QVTKOpenGLNativeWidget* getQVNativeWidget() const;
     QPushButton* getRandButton() const;
     QSlider* getSlider() const;
+    void update_slider_label() const;
 
 private:
+    QtSettings qt_settings;
     QDockWidget* controlDock;
     QLabel* controlDockTitle;
     QGridLayout* gridLayout;
     QPushButton* randButton;
     QSlider* radiusSlider;
+    QLabel* radiusLabel;
     QVTKOpenGLNativeWidget* qvtkNativeWidget;
-
 };
